@@ -1,0 +1,20 @@
+slam_toolbox:
+  ros__parameters:
+    scan_queue_size: 500          # 现在增大到100
+    odom_queue_size: 500          # 同步增大 odom 队列
+    transform_tolerance: 1.0           # 关键！增大到1秒容忍
+    
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_Link
+    scan_topic: /scan_corrected              # 你的激光雷达话题
+    odom_topic: /scan_odom         # 改成你 lidar_odometry_node 发布的 odom 话题
+    use_sim_time: true
+    
+    mode: mapping                  # mapping = 建图模式
+    debug_logging: false
+    min_laser_range: 0.1
+    max_laser_range: 30.0
+    minimum_travel_distance: 0.15
+    minimum_travel_heading: 0.15
+    loop_search_space_dimension: 8.0

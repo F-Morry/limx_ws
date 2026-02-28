@@ -1,0 +1,7 @@
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:[m[K In constructor ‘[01m[KLidarOdometryNode::LidarOdometryNode()[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   48 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

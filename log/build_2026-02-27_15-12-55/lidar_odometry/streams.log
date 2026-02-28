@@ -1,0 +1,8 @@
+[0.112s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.411s] [35m[1mConsolidate compiler generated dependencies of target scan_corrector_node[0m
+[0.656s] [ 20%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[0.953s] [ 40%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[20.043s] [ 60%] [32m[1mLinking CXX executable scan_corrector_node[0m
+[21.827s] [ 60%] Built target scan_corrector_node
+[27.720s] [ 80%] [32m[1mLinking CXX executable lidar_odometry_node[0m
+[30.997s] [100%] Built target lidar_odometry_node

@@ -1,0 +1,2 @@
+Invoking command in '/home/jerry/limx_ws/build/robot_visualization': /usr/bin/cmake /home/jerry/limx_ws/src/robot-visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_visualization
+Invoked command in '/home/jerry/limx_ws/build/robot_visualization' returned '1': /usr/bin/cmake /home/jerry/limx_ws/src/robot-visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_visualization

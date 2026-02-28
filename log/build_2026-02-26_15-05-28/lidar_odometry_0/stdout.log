@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar_odometry_node_0[0m

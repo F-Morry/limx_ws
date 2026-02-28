@@ -1,0 +1,10 @@
+[0mCurrently in CMake compilation environment[0m
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+-- Build files have been written to: /home/jerry/limx_ws/build/limxsdk_sim

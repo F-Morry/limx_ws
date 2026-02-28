@@ -1,0 +1,22 @@
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/PointfootHardware.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/HardwareBase.h:15[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/HardwareBase.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/HardwareLoop.h:17[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/HardwareLoop.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/PointfootHardwareNode.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K

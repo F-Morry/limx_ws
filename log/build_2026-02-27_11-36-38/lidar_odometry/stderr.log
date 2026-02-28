@@ -1,0 +1,15 @@
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometryNode::publish_odometry()[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:102:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+  102 |         transform.header.stamp = [01;31m[Know[m[K;
+      |                                  [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1126 |   [01;36m[Know[m[K() const;
+      |   [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

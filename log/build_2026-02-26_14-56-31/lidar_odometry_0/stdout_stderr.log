@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:94[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/include/lidar_odometry/lidar_odometry_0.hpp:25:25:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KLidarOdometry::[m[K’ on member ‘[01m[Kget_transform_matrix[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |         Eigen::Matrix4d [01;31m[KLidarOdometry[m[K::get_transform_matrix(
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:8[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/include/lidar_odometry/lidar_odometry_0.hpp:25:25:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KLidarOdometry::[m[K’ on member ‘[01m[Kget_transform_matrix[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |         Eigen::Matrix4d [01;31m[KLidarOdometry[m[K::get_transform_matrix(
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

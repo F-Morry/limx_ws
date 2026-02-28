@@ -1,0 +1,680 @@
+[0.078s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.078s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x769fbc238370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x769fbc3ffca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x769fbc3ffca0>>, mixin_verb=('build',))[0m
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.272s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/jerry/limx_ws'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.272s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.280s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extension 'ignore'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extension 'ignore_ament_install'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extensions ['colcon_pkg']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extension 'colcon_pkg'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extensions ['colcon_meta']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extension 'colcon_meta'
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extensions ['ros']
+[0.281s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/lidar_odometry) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/lidar_odometry' with type 'ros.ament_cmake' and name 'lidar_odometry'[0m
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/limxsdk-lowlevel) by extension 'ros'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/limxsdk-lowlevel' with type 'ros.ament_cmake' and name 'limxsdk_lowlevel'[0m
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extension 'ignore'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extension 'ignore_ament_install'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extensions ['colcon_pkg']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extension 'colcon_pkg'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extensions ['colcon_meta']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extension 'colcon_meta'
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extensions ['ros']
+[0.294s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-description) by extension 'ros'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot-description' with type 'ros.ament_cmake' and name 'robot_description'[0m
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extension 'ignore'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extension 'ignore_ament_install'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extensions ['colcon_pkg']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extension 'colcon_pkg'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extensions ['colcon_meta']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extension 'colcon_meta'
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extensions ['ros']
+[0.296s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/robot-visualization) by extension 'ros'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/robot-visualization' with type 'ros.ament_cmake' and name 'robot_visualization'[0m
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'ignore'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'ignore_ament_install'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extensions ['colcon_pkg']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'colcon_pkg'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extensions ['colcon_meta']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'colcon_meta'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extensions ['ros']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'ros'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extensions ['cmake', 'python']
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'cmake'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'python'
+[0.298s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extensions ['python_setup_py']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2) by extension 'python_setup_py'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'ignore'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'ignore_ament_install'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extensions ['colcon_pkg']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'colcon_pkg'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extensions ['colcon_meta']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'colcon_meta'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extensions ['ros']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'ros'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extensions ['cmake', 'python']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'cmake'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'python'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extensions ['python_setup_py']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/doc) by extension 'python_setup_py'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extension 'ignore'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extension 'ignore_ament_install'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extensions ['colcon_pkg']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extension 'colcon_pkg'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extensions ['colcon_meta']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extension 'colcon_meta'
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extensions ['ros']
+[0.299s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/limxsdk-sim) by extension 'ros'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tron1-gazebo-ros2/limxsdk-sim' with type 'ros.ament_cmake' and name 'limxsdk_sim'[0m
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extension 'ignore'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extension 'ignore_ament_install'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extensions ['colcon_pkg']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extension 'colcon_pkg'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extensions ['colcon_meta']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extension 'colcon_meta'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extensions ['ros']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-gazebo-ros2/pointfoot_gazebo) by extension 'ros'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tron1-gazebo-ros2/pointfoot_gazebo' with type 'ros.ament_cmake' and name 'pointfoot_gazebo'[0m
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'ignore_ament_install'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extensions ['colcon_pkg']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'colcon_pkg'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extensions ['colcon_meta']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'colcon_meta'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extensions ['ros']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'ros'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extensions ['cmake', 'python']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'cmake'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'python'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extensions ['python_setup_py']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2) by extension 'python_setup_py'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'ignore_ament_install'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extensions ['colcon_pkg']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'colcon_pkg'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extensions ['colcon_meta']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'colcon_meta'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extensions ['ros']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'ros'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extensions ['cmake', 'python']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'cmake'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'python'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extensions ['python_setup_py']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/doc) by extension 'python_setup_py'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extension 'ignore'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extension 'ignore_ament_install'
+[0.302s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extensions ['colcon_pkg']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extension 'colcon_pkg'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extensions ['colcon_meta']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extension 'colcon_meta'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extensions ['ros']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_controllers) by extension 'ros'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tron1-rl-deploy-ros2/robot_controllers' with type 'ros.ament_cmake' and name 'robot_controllers'[0m
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extension 'ignore'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extension 'ignore_ament_install'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extensions ['colcon_pkg']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extension 'colcon_pkg'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extensions ['colcon_meta']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extension 'colcon_meta'
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extensions ['ros']
+[0.303s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/tron1-rl-deploy-ros2/robot_hw) by extension 'ros'
+[0.304s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/tron1-rl-deploy-ros2/robot_hw' with type 'ros.ament_cmake' and name 'robot_hw'[0m
+[0.304s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.304s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.304s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.304s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.304s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.316s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.320s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 353 installed packages in /opt/ros/humble[0m
+[0.321s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'cmake_args' from command line to 'None'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'cmake_target' from command line to 'None'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'lidar_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'lidar_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/lidar_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/lidar_odometry', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/lidar_odometry', 'symlink_install': False, 'test_result_base': None}[0m
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'cmake_target' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_lowlevel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'limxsdk_lowlevel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/limxsdk_lowlevel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/limxsdk_lowlevel', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/limxsdk-lowlevel', 'symlink_install': False, 'test_result_base': None}[0m
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'cmake_target' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'limxsdk_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'limxsdk_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/limxsdk_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/limxsdk_sim', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim', 'symlink_install': False, 'test_result_base': None}[0m
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/robot_description', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/robot-description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'cmake_target' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/robot_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/robot_visualization', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/robot-visualization', 'symlink_install': False, 'test_result_base': None}[0m
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pointfoot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'pointfoot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/pointfoot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/pointfoot_gazebo', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'cmake_target' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/robot_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/robot_controllers', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers', 'symlink_install': False, 'test_result_base': None}[0m
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'cmake_target' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'robot_hw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'robot_hw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jerry/limx_ws/build/robot_hw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jerry/limx_ws/install/robot_hw', 'merge_install': False, 'path': '/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw', 'symlink_install': False, 'test_result_base': None}[0m
+[0.350s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.351s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.351s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/limxsdk-lowlevel' with build type 'ament_cmake'
+[0.351s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/limxsdk-lowlevel'
+[0.353s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.355s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim' with build type 'ament_cmake'
+[0.355s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim'
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.358s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/lidar_odometry' with build type 'ament_cmake'
+[0.358s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/lidar_odometry'
+[0.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.361s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/robot-description' with build type 'ament_cmake'
+[0.361s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/robot-description'
+[0.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.364s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/robot-visualization' with build type 'ament_cmake'
+[0.364s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/robot-visualization'
+[0.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.372s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/limxsdk-lowlevel -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_lowlevel[0m
+[0.373s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim[0m
+[0.378s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8[0m
+[0.380s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/robot-description -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_description[0m
+[0.388s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/robot-visualization -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_visualization[0m
+[0.473s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8[0m
+[0.484s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/lidar_odometry[0m
+[0.497s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(lidar_odometry)
+[0.498s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/lidar_odometry[0m
+[0.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry' for CMake module files
+[0.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry' for CMake config files
+[0.500s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('lidar_odometry', 'cmake_prefix_path')
+[0.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/hook/cmake_prefix_path.ps1'
+[0.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/hook/cmake_prefix_path.dsv'
+[0.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/hook/cmake_prefix_path.sh'
+[0.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/lib'
+[0.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/bin'
+[0.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/lib/pkgconfig/lidar_odometry.pc'
+[0.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/lib/python3.10/site-packages'
+[0.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/bin'
+[0.503s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.ps1'
+[0.503s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.dsv'
+[0.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.sh'
+[0.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.bash'
+[0.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.zsh'
+[0.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/lidar_odometry/share/colcon-core/packages/lidar_odometry)
+[0.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(lidar_odometry)
+[0.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry' for CMake module files
+[0.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry' for CMake config files
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('lidar_odometry', 'cmake_prefix_path')
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/hook/cmake_prefix_path.ps1'
+[0.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/hook/cmake_prefix_path.dsv'
+[0.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/hook/cmake_prefix_path.sh'
+[0.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/lib'
+[0.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/bin'
+[0.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/lib/pkgconfig/lidar_odometry.pc'
+[0.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/lib/python3.10/site-packages'
+[0.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/lidar_odometry/bin'
+[0.509s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.ps1'
+[0.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.dsv'
+[0.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.sh'
+[0.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.bash'
+[0.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/lidar_odometry/share/lidar_odometry/package.zsh'
+[0.512s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/lidar_odometry/share/colcon-core/packages/lidar_odometry)
+[0.668s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/robot-description -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_description[0m
+[0.670s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_description -- -j8 -l8[0m
+[0.675s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim[0m
+[0.675s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8[0m
+[0.676s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/robot-visualization -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_visualization[0m
+[0.677s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_visualization -- -j8 -l8[0m
+[0.678s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/limxsdk-lowlevel -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_lowlevel[0m
+[0.680s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_lowlevel -- -j8 -l8[0m
+[0.709s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_description -- -j8 -l8[0m
+[0.710s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_description[0m
+[0.712s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8[0m
+[0.714s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim[0m
+[0.718s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_visualization -- -j8 -l8[0m
+[0.718s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_visualization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_visualization[0m
+[0.728s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(limxsdk_sim)
+[0.729s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim' for CMake module files
+[0.731s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim' for CMake config files
+[0.736s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim[0m
+[0.742s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_sim', 'cmake_prefix_path')
+[0.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/cmake_prefix_path.ps1'
+[0.745s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/cmake_prefix_path.dsv'
+[0.747s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/cmake_prefix_path.sh'
+[0.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/lib'
+[0.752s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_sim', 'ld_library_path_lib')
+[0.752s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/ld_library_path_lib.ps1'
+[0.752s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/ld_library_path_lib.dsv'
+[0.753s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/ld_library_path_lib.sh'
+[0.756s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/bin'
+[0.756s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/lib/pkgconfig/limxsdk_sim.pc'
+[0.757s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/lib/python3.10/site-packages'
+[0.759s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/bin'
+[0.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.ps1'
+[0.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.dsv'
+[0.763s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.sh'
+[0.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.bash'
+[0.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.zsh'
+[0.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/limxsdk_sim/share/colcon-core/packages/limxsdk_sim)
+[0.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(limxsdk_sim)
+[0.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim' for CMake module files
+[0.772s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim' for CMake config files
+[0.772s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_sim', 'cmake_prefix_path')
+[0.772s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/cmake_prefix_path.ps1'
+[0.774s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/cmake_prefix_path.dsv'
+[0.775s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/cmake_prefix_path.sh'
+[0.776s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/lib'
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_sim', 'ld_library_path_lib')
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/ld_library_path_lib.ps1'
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/ld_library_path_lib.dsv'
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/hook/ld_library_path_lib.sh'
+[0.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/bin'
+[0.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/lib/pkgconfig/limxsdk_sim.pc'
+[0.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/lib/python3.10/site-packages'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_sim/bin'
+[0.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.ps1'
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.dsv'
+[0.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.sh'
+[0.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.bash'
+[0.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.zsh'
+[0.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/limxsdk_sim/share/colcon-core/packages/limxsdk_sim)
+[0.786s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo' with build type 'ament_cmake'
+[0.786s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo'
+[0.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.786s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_description)
+[0.796s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description' for CMake module files
+[0.799s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description' for CMake config files
+[0.803s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.808s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_description[0m
+[0.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.809s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/bin'
+[0.809s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.809s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/lib/python3.10/site-packages'
+[0.809s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/bin'
+[0.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.ps1'
+[0.810s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.dsv'
+[0.810s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.sh'
+[0.811s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.bash'
+[0.811s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.zsh'
+[0.812s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.812s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_description)
+[0.812s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description' for CMake module files
+[0.813s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description' for CMake config files
+[0.813s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_description', 'cmake_prefix_path')
+[0.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[0.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[0.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[0.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/bin'
+[0.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[0.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/lib/python3.10/site-packages'
+[0.814s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_description/bin'
+[0.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.ps1'
+[0.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.dsv'
+[0.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.sh'
+[0.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.bash'
+[0.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_description/share/robot_description/package.zsh'
+[0.816s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[0.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_visualization)
+[0.818s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization' for CMake module files
+[0.819s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_lowlevel -- -j8 -l8[0m
+[0.820s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_lowlevel[0m
+[0.820s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization' for CMake config files
+[0.820s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_visualization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_visualization[0m
+[0.820s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_visualization', 'cmake_prefix_path')
+[0.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/hook/cmake_prefix_path.ps1'
+[0.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/hook/cmake_prefix_path.dsv'
+[0.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/hook/cmake_prefix_path.sh'
+[0.822s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/bin'
+[0.822s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/lib/pkgconfig/robot_visualization.pc'
+[0.822s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/lib/python3.10/site-packages'
+[0.822s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/bin'
+[0.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.ps1'
+[0.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.dsv'
+[0.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.sh'
+[0.824s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.bash'
+[0.824s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.zsh'
+[0.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_visualization/share/colcon-core/packages/robot_visualization)
+[0.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_visualization)
+[0.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization' for CMake module files
+[0.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization' for CMake config files
+[0.826s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_visualization', 'cmake_prefix_path')
+[0.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/hook/cmake_prefix_path.ps1'
+[0.826s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/hook/cmake_prefix_path.dsv'
+[0.827s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/hook/cmake_prefix_path.sh'
+[0.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/bin'
+[0.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/lib/pkgconfig/robot_visualization.pc'
+[0.827s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/lib/python3.10/site-packages'
+[0.828s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_visualization/bin'
+[0.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.ps1'
+[0.828s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.dsv'
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.sh'
+[0.829s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.bash'
+[0.830s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_visualization/share/robot_visualization/package.zsh'
+[0.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_visualization/share/colcon-core/packages/robot_visualization)
+[0.841s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/pointfoot_gazebo -- -j8 -l8[0m
+[0.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(limxsdk_lowlevel)
+[0.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel' for CMake module files
+[0.843s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_lowlevel[0m
+[0.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel' for CMake config files
+[0.846s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_lowlevel', 'cmake_prefix_path')
+[0.846s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/cmake_prefix_path.ps1'
+[0.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/cmake_prefix_path.dsv'
+[0.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/cmake_prefix_path.sh'
+[0.848s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/lib'
+[0.848s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_lowlevel', 'ld_library_path_lib')
+[0.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/ld_library_path_lib.ps1'
+[0.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/ld_library_path_lib.dsv'
+[0.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/ld_library_path_lib.sh'
+[0.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/bin'
+[0.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/lib/pkgconfig/limxsdk_lowlevel.pc'
+[0.849s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/lib/python3.10/site-packages'
+[0.850s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/bin'
+[0.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.ps1'
+[0.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.dsv'
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.sh'
+[0.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.bash'
+[0.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.zsh'
+[0.852s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/limxsdk_lowlevel/share/colcon-core/packages/limxsdk_lowlevel)
+[0.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(limxsdk_lowlevel)
+[0.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel' for CMake module files
+[0.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel' for CMake config files
+[0.853s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_lowlevel', 'cmake_prefix_path')
+[0.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/cmake_prefix_path.ps1'
+[0.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/cmake_prefix_path.dsv'
+[0.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/cmake_prefix_path.sh'
+[0.855s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/lib'
+[0.855s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('limxsdk_lowlevel', 'ld_library_path_lib')
+[0.855s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/ld_library_path_lib.ps1'
+[0.856s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/ld_library_path_lib.dsv'
+[0.856s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/hook/ld_library_path_lib.sh'
+[0.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/bin'
+[0.856s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/lib/pkgconfig/limxsdk_lowlevel.pc'
+[0.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/lib/python3.10/site-packages'
+[0.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/limxsdk_lowlevel/bin'
+[0.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.ps1'
+[0.857s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.dsv'
+[0.858s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.sh'
+[0.858s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.bash'
+[0.859s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.zsh'
+[0.859s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/limxsdk_lowlevel/share/colcon-core/packages/limxsdk_lowlevel)
+[0.859s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers' with build type 'ament_cmake'
+[0.860s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers'
+[0.860s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.860s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.863s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw' with build type 'ament_cmake'
+[0.863s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw'
+[0.863s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.863s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.874s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_controllers': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_controllers -- -j8 -l8[0m
+[0.877s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_hw': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_hw -- -j8 -l8[0m
+[0.948s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/pointfoot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/pointfoot_gazebo -- -j8 -l8[0m
+[0.950s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/pointfoot_gazebo[0m
+[0.960s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pointfoot_gazebo)
+[0.960s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo' for CMake module files
+[0.961s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/pointfoot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/pointfoot_gazebo[0m
+[0.961s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo' for CMake config files
+[0.961s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pointfoot_gazebo', 'cmake_prefix_path')
+[0.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/cmake_prefix_path.ps1'
+[0.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/cmake_prefix_path.dsv'
+[0.963s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/cmake_prefix_path.sh'
+[0.963s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/lib'
+[0.963s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pointfoot_gazebo', 'ld_library_path_lib')
+[0.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/ld_library_path_lib.ps1'
+[0.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/ld_library_path_lib.dsv'
+[0.964s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/ld_library_path_lib.sh'
+[0.965s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/bin'
+[0.965s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/lib/pkgconfig/pointfoot_gazebo.pc'
+[0.965s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/lib/python3.10/site-packages'
+[0.965s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/bin'
+[0.965s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.ps1'
+[0.966s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.dsv'
+[0.966s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.sh'
+[0.967s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.bash'
+[0.967s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.zsh'
+[0.967s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/pointfoot_gazebo/share/colcon-core/packages/pointfoot_gazebo)
+[0.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pointfoot_gazebo)
+[0.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo' for CMake module files
+[0.968s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo' for CMake config files
+[0.969s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pointfoot_gazebo', 'cmake_prefix_path')
+[0.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/cmake_prefix_path.ps1'
+[0.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/cmake_prefix_path.dsv'
+[0.969s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/cmake_prefix_path.sh'
+[0.970s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/lib'
+[0.970s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pointfoot_gazebo', 'ld_library_path_lib')
+[0.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/ld_library_path_lib.ps1'
+[0.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/ld_library_path_lib.dsv'
+[0.971s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/hook/ld_library_path_lib.sh'
+[0.971s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/bin'
+[0.971s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/lib/pkgconfig/pointfoot_gazebo.pc'
+[0.972s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/lib/python3.10/site-packages'
+[0.972s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/pointfoot_gazebo/bin'
+[0.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.ps1'
+[0.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.dsv'
+[0.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.sh'
+[0.973s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.bash'
+[0.974s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.zsh'
+[0.974s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/pointfoot_gazebo/share/colcon-core/packages/pointfoot_gazebo)
+[0.977s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_controllers -- -j8 -l8[0m
+[0.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_controllers': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_controllers[0m
+[0.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_hw -- -j8 -l8[0m
+[0.980s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/jerry/limx_ws/build/robot_hw': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_hw[0m
+[0.993s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_hw)
+[0.993s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw' for CMake module files
+[0.997s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw' for CMake config files
+[0.999s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_hw', 'cmake_prefix_path')
+[0.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/hook/cmake_prefix_path.ps1'
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/hook/cmake_prefix_path.dsv'
+[1.001s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/hook/cmake_prefix_path.sh'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/lib'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/bin'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/lib/pkgconfig/robot_hw.pc'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/lib/python3.10/site-packages'
+[1.003s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/bin'
+[1.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.ps1'
+[1.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.dsv'
+[1.007s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_hw[0m
+[1.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.sh'
+[1.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.bash'
+[1.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.zsh'
+[1.009s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_hw/share/colcon-core/packages/robot_hw)
+[1.010s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_hw)
+[1.010s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw' for CMake module files
+[1.010s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw' for CMake config files
+[1.010s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_hw', 'cmake_prefix_path')
+[1.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/hook/cmake_prefix_path.ps1'
+[1.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/hook/cmake_prefix_path.dsv'
+[1.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/hook/cmake_prefix_path.sh'
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/lib'
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/bin'
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/lib/pkgconfig/robot_hw.pc'
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/lib/python3.10/site-packages'
+[1.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_hw/bin'
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.ps1'
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.dsv'
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.sh'
+[1.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.bash'
+[1.014s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.zsh'
+[1.015s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_hw/share/colcon-core/packages/robot_hw)
+[1.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_controllers)
+[1.016s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_controllers[0m
+[1.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers' for CMake module files
+[1.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers' for CMake config files
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_controllers', 'cmake_prefix_path')
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.ps1'
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.dsv'
+[1.018s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.sh'
+[1.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/lib'
+[1.018s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_controllers', 'ld_library_path_lib')
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/ld_library_path_lib.ps1'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/ld_library_path_lib.dsv'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/ld_library_path_lib.sh'
+[1.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/bin'
+[1.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/lib/pkgconfig/robot_controllers.pc'
+[1.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/lib/python3.10/site-packages'
+[1.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/bin'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.ps1'
+[1.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.dsv'
+[1.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.sh'
+[1.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.bash'
+[1.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.zsh'
+[1.022s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_controllers/share/colcon-core/packages/robot_controllers)
+[1.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(robot_controllers)
+[1.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers' for CMake module files
+[1.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers' for CMake config files
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_controllers', 'cmake_prefix_path')
+[1.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.ps1'
+[1.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.dsv'
+[1.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/cmake_prefix_path.sh'
+[1.025s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/lib'
+[1.025s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('robot_controllers', 'ld_library_path_lib')
+[1.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/ld_library_path_lib.ps1'
+[1.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/ld_library_path_lib.dsv'
+[1.026s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/hook/ld_library_path_lib.sh'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/bin'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/lib/pkgconfig/robot_controllers.pc'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/lib/python3.10/site-packages'
+[1.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/jerry/limx_ws/install/robot_controllers/bin'
+[1.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.ps1'
+[1.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.dsv'
+[1.027s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.sh'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.bash'
+[1.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.zsh'
+[1.029s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/jerry/limx_ws/install/robot_controllers/share/colcon-core/packages/robot_controllers)
+[1.029s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.029s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.029s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.030s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.035s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.035s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.035s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.046s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.046s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jerry/limx_ws/install/local_setup.ps1'
+[1.047s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jerry/limx_ws/install/_local_setup_util_ps1.py'
+[1.048s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jerry/limx_ws/install/setup.ps1'
+[1.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jerry/limx_ws/install/local_setup.sh'
+[1.049s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/jerry/limx_ws/install/_local_setup_util_sh.py'
+[1.050s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jerry/limx_ws/install/setup.sh'
+[1.050s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jerry/limx_ws/install/local_setup.bash'
+[1.051s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jerry/limx_ws/install/setup.bash'
+[1.052s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/jerry/limx_ws/install/local_setup.zsh'
+[1.052s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/jerry/limx_ws/install/setup.zsh'

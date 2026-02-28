@@ -1,0 +1,26 @@
+[100%] Built target pointfoot_node
+-- Install configuration: ""
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/lib/robot_hw/pointfoot_node
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw_slam.launch.py
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw.launch.py
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw_sim.launch.py
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/joystick.yaml
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/robot_hw.yaml
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/slam_params.yaml
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/package_run_dependencies/robot_hw
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/parent_prefix_path/robot_hw
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.bash
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.sh
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.zsh
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.dsv
+-- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/packages/robot_hw
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/cmake/robot_hwConfig.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/cmake/robot_hwConfig-version.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.xml

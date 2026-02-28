@@ -1,0 +1,89 @@
+[0.019s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/lidar_odometry_0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/lidar_odometry_0
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.140s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.146s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.179s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.180s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.288s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.304s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.324s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.346s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.555s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.560s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.560s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.661s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.665s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.670s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.764s] -- Found Qhull version 8.0.2
+[0.859s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.951s] -- looking for PCL_COMMON
+[0.951s] -- looking for PCL_KDTREE
+[0.952s] -- looking for PCL_OCTREE
+[0.952s] -- looking for PCL_SEARCH
+[0.952s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.952s] -- looking for PCL_FILTERS
+[0.952s] -- looking for PCL_2D
+[0.953s] -- looking for PCL_GEOMETRY
+[0.953s] -- looking for PCL_IO
+[0.953s] -- looking for PCL_FEATURES
+[0.953s] -- looking for PCL_ML
+[0.953s] -- looking for PCL_SEGMENTATION
+[0.954s] -- looking for PCL_VISUALIZATION
+[0.954s] -- looking for PCL_SURFACE
+[0.954s] -- looking for PCL_REGISTRATION
+[0.954s] -- looking for PCL_KEYPOINTS
+[0.954s] -- looking for PCL_TRACKING
+[0.955s] -- looking for PCL_RECOGNITION
+[0.955s] -- looking for PCL_STEREO
+[0.955s] -- looking for PCL_APPS
+[0.956s] -- looking for PCL_IN_HAND_SCANNER
+[0.956s] -- looking for PCL_MODELER
+[0.956s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.956s] -- looking for PCL_OUTOFCORE
+[0.956s] -- looking for PCL_PEOPLE
+[0.957s] -- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.962s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.976s] -- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.032s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.159s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.159s] -- Configured cppcheck include dirs: /home/jerry/limx_ws/src/lidar_odometry_0/include;$<BUILD_INTERFACE:/home/jerry/limx_ws/src/lidar_odometry_0/include>
+[1.159s] -- Configured cppcheck exclude dirs and/or files: 
+[1.161s] -- Added test 'lint_cmake' to check CMake code style
+[1.164s] -- Added test 'uncrustify' to check C / C++ code style
+[1.164s] -- Configured uncrustify additional arguments: 
+[1.165s] -- Added test 'xmllint' to check XML markup files
+[1.167s] -- Configuring done
+[1.273s] -- Generating done
+[1.280s] -- Build files have been written to: /home/jerry/limx_ws/build/lidar_odometry_0
+[1.295s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/lidar_odometry_0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/lidar_odometry_0
+[1.295s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[1.342s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[1.342s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[25.158s] [100%] [32m[1mLinking CXX executable lidar_odometry_node_0[0m
+[26.217s] [100%] Built target lidar_odometry_node_0
+[26.226s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[26.228s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/lidar_odometry_0
+[26.234s] -- Install configuration: ""
+[26.234s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/lib/lidar_odometry_0/lidar_odometry_node_0
+[26.242s] -- Set runtime path of "/home/jerry/limx_ws/install/lidar_odometry_0/lib/lidar_odometry_0/lidar_odometry_node_0" to ""
+[26.243s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/package_run_dependencies/lidar_odometry_0
+[26.243s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/parent_prefix_path/lidar_odometry_0
+[26.243s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/ament_prefix_path.sh
+[26.244s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/ament_prefix_path.dsv
+[26.244s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/path.sh
+[26.244s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/path.dsv
+[26.244s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.bash
+[26.245s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.sh
+[26.245s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.zsh
+[26.245s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.dsv
+[26.245s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/package.dsv
+[26.245s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/packages/lidar_odometry_0
+[26.246s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/cmake/lidar_odometry_0Config.cmake
+[26.246s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/cmake/lidar_odometry_0Config-version.cmake
+[26.246s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/package.xml
+[26.248s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/lidar_odometry_0

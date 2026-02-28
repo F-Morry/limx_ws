@@ -1,0 +1,26 @@
+[0.027s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[0.181s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[13.158s] [ 66%] [32m[1mLinking CXX executable lidar_odometry_node_0[0m
+[14.353s] [100%] Built target lidar_odometry_node_0
+[14.366s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[14.378s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/lidar_odometry_0
+[14.386s] -- Install configuration: ""
+[14.386s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/lib/lidar_odometry_0/lidar_odometry_node_0
+[14.404s] -- Set runtime path of "/home/jerry/limx_ws/install/lidar_odometry_0/lib/lidar_odometry_0/lidar_odometry_node_0" to ""
+[14.404s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/package_run_dependencies/lidar_odometry_0
+[14.404s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/parent_prefix_path/lidar_odometry_0
+[14.404s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/ament_prefix_path.sh
+[14.404s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/ament_prefix_path.dsv
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/path.sh
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/path.dsv
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.bash
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.sh
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.zsh
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.dsv
+[14.405s] -- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/package.dsv
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/packages/lidar_odometry_0
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/cmake/lidar_odometry_0Config.cmake
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/cmake/lidar_odometry_0Config-version.cmake
+[14.405s] -- Up-to-date: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/package.xml
+[14.410s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/lidar_odometry_0

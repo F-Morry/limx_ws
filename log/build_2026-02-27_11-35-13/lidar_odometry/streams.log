@@ -1,0 +1,68 @@
+[0.085s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.358s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.602s] [ 40%] Built target scan_corrector_node
+[0.907s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[16.589s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:61:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+[16.589s]    61 |       std::unique_ptr<tf2_ros::[01;31m[KTransformBroadcaster[m[K> tf_broadcaster_; //add tf broadcaster
+[16.589s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[16.589s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:61:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.589s]    61 |       std::unique_ptr<tf2_ros::TransformBroadcaster[01;31m[K>[m[K tf_broadcaster_; //add tf broadcaster
+[16.590s]       |                                                    [01;31m[K^[m[K
+[16.590s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:61:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[16.613s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In constructor ‘[01m[KLidarOdometryNode::LidarOdometryNode()[m[K’:
+[16.613s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:53:51:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+[16.613s]    53 |       tf_broadcaster_ = std::make_unique<tf2_ros::[01;31m[KTransformBroadcaster[m[K>(this);
+[16.614s]       |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[16.614s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:53:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(LidarOdometryNode*)[m[K’
+[16.614s]    53 | f_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(this)[m[K;
+[16.614s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[16.614s] 
+[16.615s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[16.615s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:2[m[K:
+[16.615s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[16.615s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[16.615s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[16.615s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.616s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:53:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.616s]    53 | f_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(this)[m[K;
+[16.616s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[16.616s] 
+[16.616s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[16.616s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:2[m[K:
+[16.617s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[16.617s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[16.617s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[16.617s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.617s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:53:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.618s]    53 | f_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(this)[m[K;
+[16.618s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[16.618s] 
+[16.618s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[16.618s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:2[m[K:
+[16.618s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[16.619s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[16.619s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[16.619s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[16.619s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:53:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[16.619s]    53 | f_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(this)[m[K;
+[16.619s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[16.620s] 
+[16.623s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometryNode::publish_odometry()[m[K’:
+[16.623s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:102:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[16.623s]   102 |         transform.header.stamp = [01;31m[Know[m[K;
+[16.623s]       |                                  [01;31m[K^~~[m[K
+[16.623s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[16.623s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[16.624s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.624s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[16.624s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:3[m[K:
+[16.624s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.624s]  1126 |   [01;36m[Know[m[K() const;
+[16.625s]       |   [01;36m[K^~~[m[K
+[16.625s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:117:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[16.625s]   117 |         tf_broadcaster_[01;31m[K->[m[KsendTransform(transform);
+[16.625s]       |                        [01;31m[K^~[m[K
+[22.101s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+[22.102s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[22.103s] gmake: *** [Makefile:146: all] Error 2
+[22.109s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

@@ -1,0 +1,47 @@
+[0.143s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_lowlevel -- -j8 -l8
+[0.578s] [ 50%] Built target pf_joint_move
+[0.667s] [100%] Built target pf_groupJoints_move
+[1.275s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_lowlevel -- -j8 -l8
+[1.275s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_lowlevel
+[1.374s] -- Install configuration: "Release"
+[1.374s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include/
+[1.374s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk
+[1.376s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/pointfoot.h
+[1.376s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/tron2.h
+[1.377s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/wheellegged.h
+[1.378s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/datatypes.h
+[1.379s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/macros.h
+[1.379s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability
+[1.380s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/yaml_config_parser.h
+[1.380s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/ability_manager.h
+[1.380s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/rate.h
+[1.381s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/plugin_loader.h
+[1.381s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/plugin_registry.h
+[1.382s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/robot_data.h
+[1.382s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/base_ability.h
+[1.382s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/humanoid.h
+[1.383s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/apibase.h
+[1.383s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/.
+[1.383s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/./liblimxsdk_lowlevel.so
+[1.383s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/library_path.sh
+[1.383s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/library_path.dsv
+[1.384s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/package_run_dependencies/limxsdk_lowlevel
+[1.384s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/parent_prefix_path/limxsdk_lowlevel
+[1.384s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/ament_prefix_path.sh
+[1.384s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/ament_prefix_path.dsv
+[1.385s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/path.sh
+[1.385s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/path.dsv
+[1.385s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.bash
+[1.386s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.sh
+[1.386s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.zsh
+[1.386s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.dsv
+[1.386s] -- Installing: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.dsv
+[1.386s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/packages/limxsdk_lowlevel
+[1.387s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/ament_cmake_export_libraries-extras.cmake
+[1.387s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.387s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/limxsdk_lowlevelConfig.cmake
+[1.387s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/limxsdk_lowlevelConfig-version.cmake
+[1.387s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.xml
+[1.388s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/limxsdk_lowlevel/pf_joint_move
+[1.393s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/limxsdk_lowlevel/pf_groupJoints_move
+[1.401s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_lowlevel

@@ -1,0 +1,1 @@
+Invoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': /usr/bin/cmake /home/jerry/limx_ws/src/limxsdk-lowlevel -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_lowlevel

@@ -1,0 +1,3 @@
+[0.016s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.114s] [100%] Built target lidar_odometry_node

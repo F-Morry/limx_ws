@@ -1,0 +1,22 @@
+[0.032s] Invoking command in '/home/jerry/limx_ws/build/scan_corrector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/scan_corrector -- -j8 -l8
+[0.096s] [100%] Built target scan_corrector_node
+[0.188s] Invoked command in '/home/jerry/limx_ws/build/scan_corrector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/scan_corrector -- -j8 -l8
+[0.188s] Invoking command in '/home/jerry/limx_ws/build/scan_corrector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/scan_corrector
+[0.198s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/lib/scan_corrector/scan_corrector_node
+[0.198s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/ament_index/resource_index/package_run_dependencies/scan_corrector
+[0.199s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/ament_index/resource_index/parent_prefix_path/scan_corrector
+[0.199s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/environment/ament_prefix_path.sh
+[0.199s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/environment/ament_prefix_path.dsv
+[0.199s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/environment/path.sh
+[0.199s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/environment/path.dsv
+[0.199s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/local_setup.bash
+[0.200s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/local_setup.sh
+[0.200s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/local_setup.zsh
+[0.200s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/local_setup.dsv
+[0.200s] -- Installing: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/package.dsv
+[0.201s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/ament_index/resource_index/packages/scan_corrector
+[0.202s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/cmake/scan_correctorConfig.cmake
+[0.202s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/cmake/scan_correctorConfig-version.cmake
+[0.202s] -- Up-to-date: /home/jerry/limx_ws/install/scan_corrector/share/scan_corrector/package.xml
+[0.260s] Invoked command in '/home/jerry/limx_ws/build/scan_corrector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/scan_corrector

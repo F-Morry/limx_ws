@@ -1,0 +1,47 @@
+[0.095s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_lowlevel -- -j8 -l8
+[0.482s] [100%] Built target pf_groupJoints_move
+[0.489s] [100%] Built target pf_joint_move
+[1.001s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_lowlevel -- -j8 -l8
+[1.003s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_lowlevel
+[1.011s] -- Install configuration: "Release"
+[1.011s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include/
+[1.011s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk
+[1.012s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/pointfoot.h
+[1.014s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/tron2.h
+[1.014s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/wheellegged.h
+[1.014s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/datatypes.h
+[1.015s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/macros.h
+[1.015s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability
+[1.015s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/yaml_config_parser.h
+[1.016s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/ability_manager.h
+[1.016s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/rate.h
+[1.016s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/plugin_loader.h
+[1.016s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/plugin_registry.h
+[1.016s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/robot_data.h
+[1.019s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/base_ability.h
+[1.019s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/humanoid.h
+[1.019s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/apibase.h
+[1.020s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/.
+[1.020s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/./liblimxsdk_lowlevel.so
+[1.020s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/library_path.sh
+[1.020s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/library_path.dsv
+[1.020s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/package_run_dependencies/limxsdk_lowlevel
+[1.021s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/parent_prefix_path/limxsdk_lowlevel
+[1.021s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/ament_prefix_path.sh
+[1.021s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/ament_prefix_path.dsv
+[1.022s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/path.sh
+[1.022s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/path.dsv
+[1.022s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.bash
+[1.025s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.sh
+[1.025s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.zsh
+[1.025s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.dsv
+[1.026s] -- Installing: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.dsv
+[1.026s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/packages/limxsdk_lowlevel
+[1.026s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/ament_cmake_export_libraries-extras.cmake
+[1.026s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.027s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/limxsdk_lowlevelConfig.cmake
+[1.027s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/limxsdk_lowlevelConfig-version.cmake
+[1.027s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.xml
+[1.027s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/limxsdk_lowlevel/pf_joint_move
+[1.027s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/limxsdk_lowlevel/pf_groupJoints_move
+[1.045s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_lowlevel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_lowlevel

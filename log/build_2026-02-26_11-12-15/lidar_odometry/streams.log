@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.117s] [ 40%] Built target scan_corrector_node
+[0.169s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[4.442s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[4.442s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:44:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kalign[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::align[m[K’?
+[4.442s]    44 |         gicp->align(*[01;31m[Kalign[m[K);
+[4.442s]       |                      [01;31m[K^~~~~[m[K
+[4.442s]       |                      [32m[Kstd::align[m[K
+[4.442s] In file included from [01m[K/usr/include/c++/11/memory:72[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:50[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLHeader.h:3[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_cloud.h:47[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/common/io.h:46[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/correspondence_estimation.h:43[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/icp.h:44[m[K,
+[4.442s]                  from [01m[K/usr/include/pcl-1.12/pcl/registration/gicp.h:44[m[K,
+[4.442s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:6[m[K,
+[4.442s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:2[m[K:
+[4.442s] [01m[K/usr/include/c++/11/bits/align.h:62:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::align[m[K’ declared here
+[4.442s]    62 | [01;36m[Kalign[m[K(size_t __align, size_t __size, void*& __ptr, size_t& __space) noexcept
+[4.443s]       | [01;36m[K^~~~~[m[K
+[9.802s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+[9.802s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[9.803s] gmake: *** [Makefile:146: all] Error 2
+[9.805s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

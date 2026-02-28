@@ -1,0 +1,13 @@
+In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:8[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/include/lidar_odometry/lidar_odometry_0.hpp:28:45:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KLidarOdometry::[m[K’ on member ‘[01m[Kdeskew_pointcloud[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   28 |         pcl::PointCloud<pcl::PointXYZ>::Ptr [01;31m[KLidarOdometry[m[K::deskew_pointcloud(
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/include/lidar_odometry/lidar_odometry_0.hpp:28:45:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KLidarOdometry::[m[K’ on member ‘[01m[Kdeskew_pointcloud[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   28 |         pcl::PointCloud<pcl::PointXYZ>::Ptr [01;31m[KLidarOdometry[m[K::deskew_pointcloud(
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

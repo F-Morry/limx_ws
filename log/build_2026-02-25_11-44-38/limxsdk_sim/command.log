@@ -1,0 +1,6 @@
+Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim
+Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim
+Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8
+Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8
+Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim
+Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim

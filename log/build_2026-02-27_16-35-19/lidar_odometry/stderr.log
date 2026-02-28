@@ -1,0 +1,7 @@
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometryNode::publish_odometry()[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:94:33:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_scan_stamp_[m[K’ was not declared in this scope
+   94 |         odom_msg.header.stamp = [01;31m[Klast_scan_stamp_[m[K;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

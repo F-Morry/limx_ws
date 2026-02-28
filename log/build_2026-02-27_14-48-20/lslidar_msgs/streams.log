@@ -1,0 +1,224 @@
+[0.142s] Invoking command in '/home/jerry/limx_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_msgs -- -j8 -l8
+[0.525s] [  1%] Built target lslidar_msgs__cpp
+[0.594s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[0.886s] [ 12%] Built target ament_cmake_python_copy_lslidar_msgs
+[0.940s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[0.941s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[0.941s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.941s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[0.943s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.943s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_c
+[1.028s] [ 79%] Built target lslidar_msgs
+[1.188s] [ 80%] Built target lslidar_msgs__py
+[1.354s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[1.363s] running egg_info
+[1.364s] writing lslidar_msgs.egg-info/PKG-INFO
+[1.365s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[1.367s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[1.369s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.374s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[1.452s] [ 90%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[1.558s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[1.560s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[1.565s] [100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.639s] Invoked command in '/home/jerry/limx_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_msgs -- -j8 -l8
+[1.645s] Invoking command in '/home/jerry/limx_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --install /home/jerry/limx_ws/build/lslidar_msgs
+[1.745s] -- Install configuration: ""
+[1.745s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[1.745s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[1.747s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[1.747s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[1.749s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.750s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[1.750s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[1.751s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[1.752s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c
+[1.754s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[1.755s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[1.755s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[1.757s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[1.757s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[1.757s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[1.758s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[1.759s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[1.759s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[1.760s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[1.761s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[1.762s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[1.762s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c
+[1.763s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[1.763s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[1.764s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[1.765s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[1.766s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[1.779s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[1.779s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[1.780s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[1.780s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[1.780s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[1.781s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[1.783s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[1.783s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[1.784s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.784s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[1.784s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[1.786s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[1.786s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[1.787s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[1.787s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[1.788s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[1.790s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[1.791s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[1.791s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.791s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[1.792s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[1.793s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[1.793s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[1.794s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[1.797s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[1.798s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[1.798s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[1.799s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[1.800s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[1.804s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[1.805s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[1.805s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[1.805s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[1.806s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[1.807s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[1.807s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[1.807s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[1.808s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[1.809s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[1.809s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[1.809s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[1.811s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[1.811s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[1.811s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[1.811s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[1.811s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[1.811s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[1.812s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.812s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[1.816s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.816s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[1.817s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[1.817s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.818s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[1.818s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[1.818s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.818s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[1.819s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[1.820s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.823s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[1.823s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[1.823s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[1.824s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c
+[1.824s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[1.825s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[1.826s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c
+[1.828s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[1.828s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[1.829s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[1.829s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[1.829s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[1.830s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[1.831s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[1.831s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[1.832s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[1.832s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp
+[1.832s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[1.833s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.833s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[1.834s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[1.834s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[1.834s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp
+[1.835s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[1.835s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[1.835s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[1.835s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[1.835s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[1.836s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[1.837s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[1.837s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info
+[1.837s] -- Installing: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[1.837s] -- Installing: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[1.837s] -- Installing: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[1.837s] -- Installing: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[1.838s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[1.838s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[1.838s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[1.838s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.838s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.839s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.839s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[1.839s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.839s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[1.839s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[1.840s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[1.840s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[1.840s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[1.841s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[1.841s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[1.844s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[1.848s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[1.849s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[1.850s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[1.851s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[1.851s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.860s] Listing '/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[1.861s] Listing '/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[1.861s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.862s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.867s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.871s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[1.874s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[1.877s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[1.880s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[1.882s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[1.887s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[1.887s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[1.888s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[1.888s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[1.891s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[1.892s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[1.893s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[1.899s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[1.899s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[1.902s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[1.902s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[1.904s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[1.904s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[1.906s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[1.907s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[1.907s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[1.909s] -- Installing: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[1.909s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[1.909s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[1.911s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.913s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.915s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.915s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[1.917s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.918s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.919s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.920s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.921s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[1.921s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.922s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.923s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.923s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[1.924s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.925s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[1.926s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.926s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[1.926s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.926s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.927s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.927s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.928s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.928s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.928s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[1.929s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[1.929s] -- Up-to-date: /home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[1.932s] Invoked command in '/home/jerry/limx_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --install /home/jerry/limx_ws/build/lslidar_msgs

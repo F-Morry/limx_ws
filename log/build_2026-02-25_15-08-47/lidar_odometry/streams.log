@@ -1,0 +1,10 @@
+[0.025s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.170s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[5.700s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:81:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ does not name a type
+[5.700s]    81 |       [01;31m[Ktf_broadcaster_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(this);
+[5.700s]       |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.420s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+[10.420s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[10.421s] gmake: *** [Makefile:146: all] Error 2
+[10.423s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

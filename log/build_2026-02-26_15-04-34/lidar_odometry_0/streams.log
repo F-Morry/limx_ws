@@ -1,0 +1,11 @@
+[0.031s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[0.156s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[4.648s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[4.648s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:61:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeskew_pointcloud[m[K’ was not declared in this scope
+[4.648s]    61 |         auto source_deskew = [01;31m[Kdeskew_pointcloud[m[K(last_scan_ptr->point_cloud,
+[4.648s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.452s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+[9.452s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[9.453s] gmake: *** [Makefile:146: all] Error 2
+[9.456s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8

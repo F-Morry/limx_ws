@@ -1,0 +1,5 @@
+Invoking command in '/home/jerry/limx_ws/build/scan_corrector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/scan_corrector -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/scan_corrector
+Invoked command in '/home/jerry/limx_ws/build/scan_corrector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/scan_corrector -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/scan_corrector
+Invoking command in '/home/jerry/limx_ws/build/scan_corrector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/scan_corrector -- -j8 -l8
+Invoked command in '/home/jerry/limx_ws/build/scan_corrector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/scan_corrector -- -j8 -l8
+Invoking command in '/home/jerry/limx_ws/build/scan_corrector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/scan_corrector

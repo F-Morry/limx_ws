@@ -1,0 +1,35 @@
+[0.129s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8
+[0.424s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8
+[0.497s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim
+[0.571s] -- Install configuration: "Release"
+[0.571s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include/
+[0.572s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk
+[0.575s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/pointfoot_sim.h
+[0.575s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/datatypes.h
+[0.575s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/macros.h
+[0.582s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/wheellegged_sim.h
+[0.584s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/tron2_sim.h
+[0.587s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/humanoid_sim.h
+[0.587s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/apibase.h
+[0.587s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/lib/.
+[0.587s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/lib/./liblimxsdk_sim.so
+[0.588s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/library_path.sh
+[0.588s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/library_path.dsv
+[0.588s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/ament_index/resource_index/package_run_dependencies/limxsdk_sim
+[0.606s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/ament_index/resource_index/parent_prefix_path/limxsdk_sim
+[0.606s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/ament_prefix_path.sh
+[0.606s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/ament_prefix_path.dsv
+[0.607s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/path.sh
+[0.607s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/path.dsv
+[0.607s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.bash
+[0.607s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.sh
+[0.607s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.zsh
+[0.608s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.dsv
+[0.608s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.dsv
+[0.630s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/ament_index/resource_index/packages/limxsdk_sim
+[0.631s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.631s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[0.648s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/limxsdk_simConfig.cmake
+[0.652s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/limxsdk_simConfig-version.cmake
+[0.652s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.xml
+[0.661s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/scan_corrector:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim

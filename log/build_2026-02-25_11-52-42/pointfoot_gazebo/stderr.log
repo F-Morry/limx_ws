@@ -1,0 +1,14 @@
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/include/pointfoot_gazebo/PointFootHWSim.h:18[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:22[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+[01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type pointfoot_gazebo::PointFootHWSim::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:640:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  640 |     if ([01;35m[Kthis->dataPtr_->joint_names_.size() == motor_number[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type pointfoot_gazebo::PointFootHWSim::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:718:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  718 |     if ([01;35m[Kthis->dataPtr_->joint_names_.size() == motor_number[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K

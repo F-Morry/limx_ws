@@ -1,0 +1,194 @@
+[0.011s] Invoking command in '/home/jerry/limx_ws/build/robot_controllers': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_controllers
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.415s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.482s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.483s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.516s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.688s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.705s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.772s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.774s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.786s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.788s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.795s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.806s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.814s] -- Looking for pthread.h
+[0.886s] -- Looking for pthread.h - found
+[0.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.968s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.969s] -- Found Threads: TRUE  
+[1.004s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.022s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.028s] -- Found limxsdk_lowlevel: 0.0.0 (/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake)
+[1.088s] -- Configuring done
+[1.100s] -- Generating done
+[1.104s] -- Build files have been written to: /home/jerry/limx_ws/build/robot_controllers
+[1.115s] Invoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_controllers
+[1.116s] Invoking command in '/home/jerry/limx_ws/build/robot_controllers': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_controllers -- -j8 -l8
+[1.174s] [ 20%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/ControllerBase.cpp.o[0m
+[1.174s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/PointfootController.cpp.o[0m
+[1.175s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/SolefootController.cpp.o[0m
+[1.177s] [ 80%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/WheelfootController.cpp.o[0m
+[7.070s] [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn robot_controllers::ControllerBase::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[7.070s] [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:113:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string hardware_interface::LoanedCommandInterface::get_full_name() const[m[K’ is deprecated: Replaced by get_name method, which is semantically more correct [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.070s]   113 |     command_interfaces_map_[[01;35m[Kinterface.get_full_name()[m[K] = &interface;
+[7.070s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.070s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/include/robot_controllers/ControllerBase.h:28[m[K,
+[7.070s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:5[m[K:
+[7.070s] [01m[K/opt/ros/humble/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:59:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.070s]    59 |   [01;36m[Kget_full_name[m[K() const
+[7.070s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[7.070s] [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:116:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string hardware_interface::LoanedStateInterface::get_full_name() const[m[K’ is deprecated: Replaced by get_name method, which is semantically more correct [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.070s]   116 |     state_interfaces_map_[[01;35m[Kinterface.get_full_name()[m[K] = &interface;
+[7.070s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.070s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/include/robot_controllers/ControllerBase.h:29[m[K,
+[7.070s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:5[m[K:
+[7.070s] [01m[K/opt/ros/humble/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:59:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.070s]    59 |   [01;36m[Kget_full_name[m[K() const
+[7.071s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[15.275s] [100%] [32m[1mLinking CXX shared library librobot_controllers.so[0m
+[16.030s] [100%] Built target robot_controllers
+[16.100s] Invoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_controllers -- -j8 -l8
+[16.103s] Invoking command in '/home/jerry/limx_ws/build/robot_controllers': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_controllers
+[16.113s] -- Install configuration: ""
+[16.113s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/robot_controllers_plugin.xml
+[16.115s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/lib/librobot_controllers.so
+[16.125s] -- Set runtime path of "/home/jerry/limx_ws/install/robot_controllers/lib/librobot_controllers.so" to ""
+[16.125s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/include
+[16.125s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/WheelfootController.h
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/PointfootController.h
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/ControllerBase.h
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/SolefootController.h
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot
+[16.126s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B
+[16.127s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/params.yaml
+[16.127s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy
+[16.127s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaaclab
+[16.127s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaaclab/encoder.onnx
+[16.127s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaaclab/policy.onnx
+[16.127s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaacgym
+[16.128s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaacgym/encoder.onnx
+[16.128s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaacgym/policy.onnx
+[16.128s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B
+[16.129s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/params.yaml
+[16.129s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy
+[16.129s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaaclab
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaaclab/encoder.onnx
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaaclab/policy.onnx
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaacgym
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaacgym/encoder.onnx
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaacgym/policy.onnx
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/params.yaml
+[16.130s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy
+[16.131s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaaclab
+[16.131s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaaclab/encoder.onnx
+[16.131s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaaclab/policy.onnx
+[16.131s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaacgym
+[16.131s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaacgym/encoder.onnx
+[16.131s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaacgym/policy.onnx
+[16.132s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B
+[16.132s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/params.yaml
+[16.132s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy
+[16.132s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaaclab
+[16.133s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaaclab/encoder.onnx
+[16.133s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaaclab/policy.onnx
+[16.133s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaacgym
+[16.133s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaacgym/encoder.onnx
+[16.133s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaacgym/policy.onnx
+[16.133s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B
+[16.134s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/params.yaml
+[16.134s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy
+[16.134s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaaclab
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaaclab/encoder.onnx
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaaclab/policy.onnx
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaacgym
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaacgym/encoder.onnx
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaacgym/policy.onnx
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2
+[16.135s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/params.yaml
+[16.136s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy
+[16.136s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaaclab
+[16.136s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaaclab/encoder.onnx
+[16.136s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaaclab/policy.onnx
+[16.136s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaacgym
+[16.137s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaacgym/encoder.onnx
+[16.137s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaacgym/policy.onnx
+[16.137s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A
+[16.137s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/params.yaml
+[16.137s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy
+[16.138s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaaclab
+[16.138s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaaclab/encoder.onnx
+[16.138s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaaclab/policy.onnx
+[16.138s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaacgym
+[16.140s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaacgym/encoder.onnx
+[16.140s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaacgym/policy.onnx
+[16.140s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A
+[16.140s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/params.yaml
+[16.140s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy
+[16.140s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaaclab
+[16.141s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaaclab/encoder.onnx
+[16.141s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaaclab/policy.onnx
+[16.141s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaacgym
+[16.141s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaacgym/encoder.onnx
+[16.141s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaacgym/policy.onnx
+[16.141s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A
+[16.142s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/params.yaml
+[16.142s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy
+[16.142s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaaclab
+[16.142s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaaclab/encoder.onnx
+[16.143s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaaclab/policy.onnx
+[16.143s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaacgym
+[16.143s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaacgym/encoder.onnx
+[16.143s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaacgym/policy.onnx
+[16.143s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C
+[16.143s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/params.yaml
+[16.144s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy
+[16.144s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaaclab
+[16.144s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaaclab/encoder.onnx
+[16.144s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaaclab/policy.onnx
+[16.144s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaacgym
+[16.145s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaacgym/encoder.onnx
+[16.145s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaacgym/policy.onnx
+[16.145s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/robot_controllers.yaml
+[16.145s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/library_path.sh
+[16.145s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/library_path.dsv
+[16.145s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/package_run_dependencies/robot_controllers
+[16.147s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/parent_prefix_path/robot_controllers
+[16.147s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.sh
+[16.147s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.dsv
+[16.148s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/path.sh
+[16.148s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/path.dsv
+[16.148s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.bash
+[16.149s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.sh
+[16.149s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.zsh
+[16.150s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.dsv
+[16.150s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.dsv
+[16.150s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/packages/robot_controllers
+[16.151s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_controllers
+[16.152s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.152s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[16.153s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.153s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake
+[16.153s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig-version.cmake
+[16.154s] -- Up-to-date: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.xml
+[16.156s] Invoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_controllers

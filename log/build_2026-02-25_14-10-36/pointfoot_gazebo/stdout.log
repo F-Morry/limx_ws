@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target poinfoot_gazebo_hardware_plugin[0m
+[100%] Built target poinfoot_gazebo_hardware_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/lib/libpoinfoot_gazebo_hardware_plugin.so
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/launch
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/launch/empty_world.launch.py
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/config
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/config/pointfoot_gazebo.yaml
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds/empty_world.world
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds/new_world.world
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/library_path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/library_path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/poinfoot_gazebo_hardware_plugin.xml
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/package_run_dependencies/pointfoot_gazebo
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/parent_prefix_path/pointfoot_gazebo
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.bash
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.sh
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.zsh
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.dsv
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/packages/pointfoot_gazebo
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/pointfoot_gazebo
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/pointfoot_gazeboConfig.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/pointfoot_gazeboConfig-version.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.xml

@@ -1,0 +1,13 @@
+[0.030s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[0.201s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[0.201s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[15.123s] [100%] [32m[1mLinking CXX executable lidar_odometry_node_0[0m
+[16.076s] /usr/bin/ld: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o: in function `LidarOdometry::process_scan_data(std::shared_ptr<ScanData>)':
+[16.076s] lidar_odometry_0.cpp:(.text+0x50a): undefined reference to `LidarOdometry::deskew_pointcloud(pcl::PointCloud<pcl::PointXYZ> const&, double, double, Eigen::Matrix<double, 3, 1, 0, 3, 1> const&)'
+[16.077s] /usr/bin/ld: lidar_odometry_0.cpp:(.text+0x57a): undefined reference to `LidarOdometry::deskew_pointcloud(pcl::PointCloud<pcl::PointXYZ> const&, double, double, Eigen::Matrix<double, 3, 1, 0, 3, 1> const&)'
+[16.173s] collect2: error: ld returned 1 exit status
+[16.175s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:353: lidar_odometry_node_0] Error 1
+[16.175s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[16.175s] gmake: *** [Makefile:146: all] Error 2
+[16.178s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8

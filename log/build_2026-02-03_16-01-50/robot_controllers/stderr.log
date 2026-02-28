@@ -1,0 +1,17 @@
+[01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn robot_controllers::ControllerBase::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:113:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string hardware_interface::LoanedCommandInterface::get_full_name() const[m[K’ is deprecated: Replaced by get_name method, which is semantically more correct [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  113 |     command_interfaces_map_[[01;35m[Kinterface.get_full_name()[m[K] = &interface;
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/include/robot_controllers/ControllerBase.h:28[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:59:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   59 |   [01;36m[Kget_full_name[m[K() const
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:116:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string hardware_interface::LoanedStateInterface::get_full_name() const[m[K’ is deprecated: Replaced by get_name method, which is semantically more correct [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  116 |     state_interfaces_map_[[01;35m[Kinterface.get_full_name()[m[K] = &interface;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/include/robot_controllers/ControllerBase.h:29[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:59:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   59 |   [01;36m[Kget_full_name[m[K() const
+      |   [01;36m[K^~~~~~~~~~~~~[m[K

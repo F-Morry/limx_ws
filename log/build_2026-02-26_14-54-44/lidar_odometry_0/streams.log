@@ -1,0 +1,20 @@
+[0.032s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.166s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[4.780s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[4.780s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:158:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_transform_matrix_filtered[m[K’ was not declared in this scope; did you mean ‘[01m[Kget_transform_matrix[m[K’?
+[4.780s]   158 |         Eigen::Matrix4d transform_matrix = [01;31m[Kget_transform_matrix_filtered[m[K(source_filtered, target_filtered);
+[4.780s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.780s]       |                                            [32m[Kget_transform_matrix[m[K
+[4.805s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:[m[K At global scope:
+[4.805s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:180:17:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Matrix4d LidarOdometry::get_transform_matrix_filtered(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+[4.805s]   180 | Eigen::Matrix4d [01;31m[KLidarOdometry[m[K::get_transform_matrix_filtered(
+[4.805s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[4.805s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:180:17:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[KEigen::Matrix4d LidarOdometry::get_transform_matrix_filtered(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+[4.805s] In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:94[m[K:
+[4.805s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/include/lidar_odometry/lidar_odometry_0.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LidarOdometry[m[K’ defined here
+[4.805s]    10 | class [01;36m[KLidarOdometry[m[K
+[4.805s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[6.935s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+[6.935s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[6.936s] gmake: *** [Makefile:146: all] Error 2
+[6.939s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8

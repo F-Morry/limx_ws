@@ -1,0 +1,96 @@
+[0.012s] Invoking command in '/home/jerry/limx_ws/build/robot_hw': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_hw
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.290s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.479s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.519s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.523s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.541s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.554s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.597s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.720s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.770s] -- Looking for pthread.h
+[0.854s] -- Looking for pthread.h - found
+[0.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.938s] -- Found Threads: TRUE  
+[0.975s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.087s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.088s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.115s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.123s] -- Found limxsdk_lowlevel: 0.0.0 (/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake)
+[1.173s] -- Configuring done
+[1.189s] -- Generating done
+[1.192s] -- Build files have been written to: /home/jerry/limx_ws/build/robot_hw
+[1.205s] Invoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_hw
+[1.205s] Invoking command in '/home/jerry/limx_ws/build/robot_hw': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_hw -- -j8 -l8
+[1.291s] [ 20%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/HardwareLoop.cpp.o[0m
+[1.291s] [ 40%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/HardwareBase.cpp.o[0m
+[1.291s] [ 60%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/PointfootHardware.cpp.o[0m
+[1.296s] [ 80%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/PointfootHardwareNode.cpp.o[0m
+[9.854s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+[9.854s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/PointfootHardwareNode.cpp:9[m[K:
+[9.854s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[9.854s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[9.854s]       |                                                                                                    [01;36m[K^[m[K
+[10.260s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/HardwareBase.h:15[m[K,
+[10.260s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/HardwareBase.cpp:5[m[K:
+[10.260s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[10.260s]    22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[10.260s]       |                                                             [01;36m[K^[m[K
+[10.260s] 
+[10.460s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+[10.460s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/PointfootHardware.cpp:5[m[K:
+[10.460s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[10.460s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[10.460s]       |                                                                                                    [01;36m[K^[m[K
+[13.932s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+[13.932s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/HardwareLoop.h:17[m[K,
+[13.932s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/HardwareLoop.cpp:5[m[K:
+[13.932s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[13.933s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[13.933s]       |                                                                                                    [01;36m[K^[m[K
+[19.694s] [100%] [32m[1mLinking CXX executable pointfoot_node[0m
+[21.106s] [100%] Built target pointfoot_node
+[21.358s] Invoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_hw -- -j8 -l8
+[21.465s] Invoking command in '/home/jerry/limx_ws/build/robot_hw': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_hw
+[21.534s] -- Install configuration: ""
+[21.534s] -- Installing: /home/jerry/limx_ws/install/robot_hw/lib/robot_hw/pointfoot_node
+[21.536s] -- Set runtime path of "/home/jerry/limx_ws/install/robot_hw/lib/robot_hw/pointfoot_node" to ""
+[21.536s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch
+[21.538s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw.launch.py
+[21.539s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw_sim.launch.py
+[21.540s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config
+[21.540s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/joystick.yaml
+[21.541s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/robot_hw.yaml
+[21.541s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/package_run_dependencies/robot_hw
+[21.542s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/parent_prefix_path/robot_hw
+[21.543s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/ament_prefix_path.sh
+[21.544s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/ament_prefix_path.dsv
+[21.544s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/path.sh
+[21.545s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/path.dsv
+[21.546s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.bash
+[21.547s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.sh
+[21.548s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.zsh
+[21.549s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.dsv
+[21.549s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.dsv
+[21.549s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/packages/robot_hw
+[21.550s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/cmake/robot_hwConfig.cmake
+[21.551s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/cmake/robot_hwConfig-version.cmake
+[21.552s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.xml
+[21.559s] Invoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_hw

@@ -1,0 +1,160 @@
+[0.122s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.247s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.825s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.857s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.858s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.858s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.004s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.008s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.457s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.541s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.541s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.623s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.139s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.405s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.427s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.431s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.725s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.752s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.780s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.061s] -- Found Qhull version 8.0.2
+[3.396s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.699s] -- looking for PCL_COMMON
+[3.700s] -- looking for PCL_KDTREE
+[3.704s] -- looking for PCL_OCTREE
+[3.704s] -- looking for PCL_SEARCH
+[3.704s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.704s] -- looking for PCL_FILTERS
+[3.705s] -- looking for PCL_2D
+[3.705s] -- looking for PCL_GEOMETRY
+[3.705s] -- looking for PCL_IO
+[3.707s] -- looking for PCL_FEATURES
+[3.707s] -- looking for PCL_ML
+[3.708s] -- looking for PCL_SEGMENTATION
+[3.709s] -- looking for PCL_VISUALIZATION
+[3.709s] -- looking for PCL_SURFACE
+[3.709s] -- looking for PCL_REGISTRATION
+[3.710s] -- looking for PCL_KEYPOINTS
+[3.710s] -- looking for PCL_TRACKING
+[3.710s] -- looking for PCL_RECOGNITION
+[3.710s] -- looking for PCL_STEREO
+[3.710s] -- looking for PCL_APPS
+[3.711s] -- looking for PCL_IN_HAND_SCANNER
+[3.713s] -- looking for PCL_MODELER
+[3.713s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.714s] -- looking for PCL_OUTOFCORE
+[3.714s] -- looking for PCL_PEOPLE
+[3.714s] -- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+[3.731s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.768s] -- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.896s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.907s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.907s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.910s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[3.910s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[3.911s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[3.911s]   command to set the policy and suppress this warning.
+[3.911s] 
+[3.911s]   CMake variable PCL_ROOT is set to:
+[3.911s] 
+[3.911s]     /usr
+[3.912s] 
+[3.912s]   For compatibility, CMake is ignoring the variable.
+[3.912s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.912s] [0m
+[3.952s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.137s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.137s] -- Configured cppcheck include dirs: /home/jerry/limx_ws/src/lidar_odometry/include;$<BUILD_INTERFACE:/home/jerry/limx_ws/src/lidar_odometry/include>
+[4.137s] -- Configured cppcheck exclude dirs and/or files: 
+[4.140s] -- Added test 'lint_cmake' to check CMake code style
+[4.146s] -- Added test 'uncrustify' to check C / C++ code style
+[4.147s] -- Configured uncrustify additional arguments: 
+[4.150s] -- Added test 'xmllint' to check XML markup files
+[4.153s] -- Configuring done
+[4.513s] -- Generating done
+[4.573s] -- Build files have been written to: /home/jerry/limx_ws/build/lidar_odometry
+[4.709s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[4.709s] [35m[1mConsolidate compiler generated dependencies of target scan_corrector_node[0m
+[4.831s] [ 20%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[4.960s] [ 40%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[4.967s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[21.376s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In constructor ‘[01m[KLidarOdometryNode::LidarOdometryNode()[m[K’:
+[21.377s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:51:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ was not declared in this scope; did you mean ‘[01m[Kpcl::fields::s[m[K’?
+[21.377s]    51 |           [01;31m[Ks[m[K
+[21.378s]       |           [01;31m[K^[m[K
+[21.378s]       |           [32m[Kpcl::fields::s[m[K
+[21.379s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[21.379s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[21.379s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[21.379s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[21.379s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[21.380s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[21.380s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_struct_traits.h:40[m[K,
+[21.380s]                  from [01m[K/usr/include/pcl-1.12/pcl/type_traits.h:40[m[K,
+[21.380s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:46[m[K,
+[21.380s]                  from [01m[K/usr/include/pcl-1.12/pcl/PCLPointField.h:3[m[K,
+[21.380s]                  from [01m[K/usr/include/pcl-1.12/pcl/conversions.h:46[m[K,
+[21.381s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:47[m[K,
+[21.381s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:3[m[K:
+[21.381s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1983:1:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::fields::s[m[K’ declared here
+[21.382s]  1983 | [01;36m[KPOINT_CLOUD_REGISTER_POINT_STRUCT[m[K (pcl::_PointXYZHSV,
+[21.382s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.389s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometryNode::publish_odometry()[m[K’:
+[21.389s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:101:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[21.389s]   101 |         transform.header.stamp = [01;31m[Know[m[K;
+[21.389s]       |                                  [01;31m[K^~~[m[K
+[21.389s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[21.390s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[21.391s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.392s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[21.392s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:3[m[K:
+[21.392s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.392s]  1126 |   [01;36m[Know[m[K() const;
+[21.393s]       |   [01;36m[K^~~[m[K
+[21.394s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[21.394s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:61:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeskew_pointcloud[m[K’ was not declared in this scope
+[21.394s]    61 |         auto source_deskew = [01;31m[Kdeskew_pointcloud[m[K(last_scan_ptr->point_cloud,
+[21.394s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[21.402s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:91:65:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshared_ptr<[01;32m[Kpcl::PointCloud<pcl::PointXYZ>[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[KScanData[m[K>[m[K’
+[21.402s]    91 |         Eigen::Matrix4d transform_matrix = get_transform_matrix([01;31m[Ksource_filtered[m[K, target_filtered);
+[21.402s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.402s]       |                                                                 [01;31m[K|[m[K
+[21.403s]       |                                                                 [01;31m[Kshared_ptr<pcl::PointCloud<pcl::PointXYZ>>[m[K
+[21.403s] In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[21.403s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:24:58:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[KEigen::Matrix4d LidarOdometry::get_transform_matrix(ScanDataPtr, ScanDataPtr)[m[K’
+[21.403s]    24 |         Eigen::Matrix4d get_transform_matrix([01;36m[KScanDataPtr source[m[K, ScanDataPtr target);
+[21.403s]       |                                              [01;36m[K~~~~~~~~~~~~^~~~~~[m[K
+[21.406s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[21.406s]   116 |         [01;31m[Ktf_broadcaster_[m[K->sendTransform(transform);
+[21.407s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.441s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K At global scope:
+[21.441s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:152:18:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KEigen::Matrix4d LidarOdometry::get_transform_matrix(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’
+[21.442s]   152 | Eigen::Matrix4d  [01;31m[KLidarOdometry[m[K::get_transform_matrix(
+[21.442s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[21.442s] In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[21.442s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:24:25:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[KEigen::Matrix4d LidarOdometry::get_transform_matrix(ScanDataPtr, ScanDataPtr)[m[K’
+[21.442s]    24 |         Eigen::Matrix4d [01;36m[Kget_transform_matrix[m[K(ScanDataPtr source, ScanDataPtr target);
+[21.443s]       |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[21.443s] In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[21.443s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LidarOdometry[m[K’ defined here
+[21.443s]    10 | class [01;36m[KLidarOdometry[m[K
+[21.444s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[21.444s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:165:37:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr LidarOdometry::deskew_pointcloud(const pcl::PointCloud<pcl::PointXYZ>&, double, double, const Vector3d&)[m[K’
+[21.444s]   165 | pcl::PointCloud<pcl::PointXYZ>::Ptr [01;31m[KLidarOdometry[m[K::deskew_pointcloud(
+[21.444s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[21.444s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:165:37:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr LidarOdometry::deskew_pointcloud(const pcl::PointCloud<pcl::PointXYZ>&, double, double, const Vector3d&)[m[K’
+[21.445s] In file included from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[21.445s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass LidarOdometry[m[K’ defined here
+[21.445s]    10 | class [01;36m[KLidarOdometry[m[K
+[21.445s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[24.004s] [ 80%] [32m[1mLinking CXX executable scan_corrector_node[0m
+[25.735s] [ 80%] Built target scan_corrector_node
+[27.502s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+[27.502s] gmake[2]: *** Waiting for unfinished jobs....
+[30.974s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+[30.975s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[30.976s] gmake: *** [Makefile:146: all] Error 2
+[30.986s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

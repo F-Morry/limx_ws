@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:5 (if):
+  if given arguments:
+
+    "EQUAL" "1"
+
+  Unknown arguments specified
+
+[0m

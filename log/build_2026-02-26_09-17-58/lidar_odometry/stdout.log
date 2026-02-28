@@ -1,0 +1,4 @@
+[ 40%] Built target scan_corrector_node
+[ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable lidar_odometry_node[0m
+[100%] Built target lidar_odometry_node

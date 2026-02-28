@@ -1,0 +1,11 @@
+[0.022s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[0.177s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[4.632s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:[m[K In constructor ‘[01m[KLidarOdometryNode::LidarOdometryNode()[m[K’:
+[4.632s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.632s]    48 |     [01;31m[K}[m[K
+[4.632s]       |     [01;31m[K^[m[K
+[7.991s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Error 1
+[7.992s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[7.992s] gmake: *** [Makefile:146: all] Error 2
+[7.995s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8

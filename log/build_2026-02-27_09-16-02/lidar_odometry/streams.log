@@ -1,0 +1,3 @@
+[0.063s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.570s] [ 40%] Built target scan_corrector_node
+[0.738s] [100%] Built target lidar_odometry_node

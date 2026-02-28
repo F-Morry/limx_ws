@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target pf_groupJoints_move[0m
+[35m[1mConsolidate compiler generated dependencies of target pf_joint_move[0m
+[ 50%] Built target pf_groupJoints_move
+[100%] Built target pf_joint_move
+-- Install configuration: "Release"
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include/
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/pointfoot.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/tron2.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/wheellegged.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/datatypes.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/macros.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/yaml_config_parser.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/ability_manager.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/rate.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/plugin_loader.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/plugin_registry.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/robot_data.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/ability/base_ability.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/humanoid.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/include//limxsdk/apibase.h
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/.
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/./liblimxsdk_lowlevel.so
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/library_path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/library_path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/package_run_dependencies/limxsdk_lowlevel
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/parent_prefix_path/limxsdk_lowlevel
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/path.sh
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/environment/path.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.bash
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.sh
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.zsh
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/local_setup.dsv
+-- Installing: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.dsv
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/ament_index/resource_index/packages/limxsdk_lowlevel
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/limxsdk_lowlevelConfig.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake/limxsdk_lowlevelConfig-version.cmake
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/package.xml
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/limxsdk_lowlevel/pf_joint_move
+-- Up-to-date: /home/jerry/limx_ws/install/limxsdk_lowlevel/lib/limxsdk_lowlevel/pf_groupJoints_move

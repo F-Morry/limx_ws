@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[ 40%] Built target scan_corrector_node
+[ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:45:14:[m[K [01;31m[Kerror: [m[K‘[01m[KVoxelGrid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   45 |         pcl::[01;31m[KVoxelGrid[m[K<pcl::PointXYZ> voxel;
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:45:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   45 |         pcl::VoxelGrid<pcl::PointXYZ[01;31m[K>[m[K voxel;
+      |                                     [01;31m[K^[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:45:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoxel[m[K’ was not declared in this scope
+   45 |         pcl::VoxelGrid<pcl::PointXYZ> [01;31m[Kvoxel[m[K;
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:48:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksource_filtered[m[K’ was not declared in this scope
+   48 |         voxel.filter(*[01;31m[Ksource_filtered[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:55:14:[m[K [01;31m[Kerror: [m[K‘[01m[KStatisticalOutlierRemoval[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+   55 |         pcl::[01;31m[KStatisticalOutlierRemoval[m[K<pcl::PointXYZ> sor;
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:55:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   55 |         pcl::StatisticalOutlierRemoval<pcl::PointXYZ[01;31m[K>[m[K sor;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:55:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksor[m[K’ was not declared in this scope
+   55 |         pcl::StatisticalOutlierRemoval<pcl::PointXYZ> [01;31m[Ksor[m[K;
+      |                                                       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

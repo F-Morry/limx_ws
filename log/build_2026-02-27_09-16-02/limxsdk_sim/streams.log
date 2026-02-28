@@ -1,0 +1,13 @@
+[0.057s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim
+[0.148s] [0mCurrently in CMake compilation environment[0m
+[0.153s] -- Configuring done
+[0.158s] -- Generating done
+[0.160s] [33mCMake Warning:
+[0.160s]   Manually-specified variables were not used by the project:
+[0.161s] 
+[0.161s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.161s] 
+[0.161s] [0m
+[0.164s] -- Build files have been written to: /home/jerry/limx_ws/build/limxsdk_sim
+[0.181s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim
+[0.187s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8

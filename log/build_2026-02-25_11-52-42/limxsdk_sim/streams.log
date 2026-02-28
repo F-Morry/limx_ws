@@ -1,0 +1,55 @@
+[0.026s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim
+[0.206s] -- The C compiler identification is GNU 11.4.0
+[0.367s] -- The CXX compiler identification is GNU 11.4.0
+[0.386s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.513s] -- Detecting C compile features
+[0.513s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.612s] -- Detecting CXX compiler ABI info - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.618s] [0mCurrently in ROS2 compilation environment[0m
+[0.620s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.741s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.911s] -- Configuring done
+[0.914s] -- Generating done
+[0.916s] -- Build files have been written to: /home/jerry/limx_ws/build/limxsdk_sim
+[0.921s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/limxsdk-sim -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_sim
+[0.922s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8
+[0.963s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/limxsdk_sim -- -j8 -l8
+[0.966s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim
+[0.978s] -- Install configuration: "Release"
+[0.978s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include/
+[0.983s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk
+[0.984s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/pointfoot_sim.h
+[0.985s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/datatypes.h
+[0.985s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/macros.h
+[0.985s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/wheellegged_sim.h
+[0.985s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/tron2_sim.h
+[0.986s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/humanoid_sim.h
+[0.986s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/include//limxsdk/apibase.h
+[0.986s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/lib/.
+[0.993s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/lib/./liblimxsdk_sim.so
+[0.995s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/library_path.sh
+[0.996s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/library_path.dsv
+[0.998s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/ament_index/resource_index/package_run_dependencies/limxsdk_sim
+[0.998s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/ament_index/resource_index/parent_prefix_path/limxsdk_sim
+[0.998s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/ament_prefix_path.sh
+[0.998s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/ament_prefix_path.dsv
+[0.998s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/path.sh
+[0.998s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/environment/path.dsv
+[1.002s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.bash
+[1.002s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.sh
+[1.003s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.zsh
+[1.003s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/local_setup.dsv
+[1.003s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.dsv
+[1.003s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/ament_index/resource_index/packages/limxsdk_sim
+[1.003s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.003s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/ament_cmake_export_libraries-extras.cmake
+[1.005s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/limxsdk_simConfig.cmake
+[1.005s] -- Installing: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake/limxsdk_simConfig-version.cmake
+[1.005s] -- Up-to-date: /home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/package.xml
+[1.012s] Invoked command in '/home/jerry/limx_ws/build/limxsdk_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/limxsdk_sim

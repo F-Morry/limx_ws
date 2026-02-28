@@ -1,0 +1,37 @@
+[0.031s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.216s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[0.216s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[3.368s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:8:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[3.368s]     8 | #include [01;35m[K"[m[Klidar_odometry/lidar_odometry_0
+[3.368s]       |          [01;35m[K^[m[K
+[3.369s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:8:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[3.369s]     8 | #include [01;31m[K"lidar_odometry/lidar_odometry_0[m[K
+[3.369s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.369s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:9:5:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[3.369s]     9 | .hpp[01;35m[K"[m[K
+[3.369s]       |     [01;35m[K^[m[K
+[3.369s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:9:5:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[10.460s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+[10.460s]     9 | [01;31m[K.[m[Khpp"
+[10.460s]       | [01;31m[K^[m[K
+[10.472s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.472s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:94:33:[m[K [01;31m[Kerror: [m[K‘[01m[KLidarOdometryNode[m[K’ was not declared in this scope
+[10.472s]    94 |   rclcpp::spin(std::make_shared<[01;31m[KLidarOdometryNode[m[K>());
+[10.473s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.473s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:94:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[10.473s]    94 |   rclcpp::spin([01;31m[Kstd::make_shared<LidarOdometryNode>()[m[K);
+[10.473s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[10.473s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[10.473s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:2[m[K:
+[10.473s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[10.473s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[10.473s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[10.473s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.473s] [01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_node_0.cpp:94:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.473s]    94 |   rclcpp::spin([01;31m[Kstd::make_shared<LidarOdometryNode>()[m[K);
+[10.473s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[12.869s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Error 1
+[12.869s] gmake[2]: *** Waiting for unfinished jobs....
+[20.642s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[20.642s] gmake: *** [Makefile:146: all] Error 2
+[20.648s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8

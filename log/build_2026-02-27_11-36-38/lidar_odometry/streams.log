@@ -1,0 +1,20 @@
+[0.103s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.338s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.644s] [ 40%] Built target scan_corrector_node
+[0.866s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[16.843s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometryNode::publish_odometry()[m[K’:
+[16.843s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:102:34:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[16.843s]   102 |         transform.header.stamp = [01;31m[Know[m[K;
+[16.843s]       |                                  [01;31m[K^~~[m[K
+[16.843s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[16.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[16.844s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.844s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[16.844s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry_node.cpp:3[m[K:
+[16.844s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.844s]  1126 |   [01;36m[Know[m[K() const;
+[16.845s]       |   [01;36m[K^~~[m[K
+[22.391s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+[22.392s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[22.392s] gmake: *** [Makefile:146: all] Error 2
+[22.399s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

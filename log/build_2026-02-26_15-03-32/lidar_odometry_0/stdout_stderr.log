@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:61:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeskew_pointcloud[m[K’ was not declared in this scope
+   61 |         auto source_deskew = [01;31m[Kdeskew_pointcloud[m[K(last_scan_ptr->point_cloud,
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:[m[K In function ‘[01m[KEigen::Matrix4d get_transform_matrix(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgicp[m[K’ was not declared in this scope
+  158 |     [01;31m[Kgicp[m[K->setInputSource(source);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:162:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+  162 |     return gicp->getFinalTransformation().cast<[01;31m[Kdouble[m[K>();
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:162:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+  162 |     return gicp->getFinalTransformation().cast<[01;31m[Kd[m[K[32m[Kouble[m[K>();
+      |                                                [01;31m[K^[m[K[32m[K~~~~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry_0/src/lidar_odometry_0.cpp:162:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+  162 |     return gicp->getFinalTransformation().cast<double[01;31m[K>[m[K();
+      |                                                      [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
