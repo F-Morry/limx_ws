@@ -1,0 +1,130 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:82:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   82 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Voxel后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:82:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:82:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Voxel后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:82:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   82 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Voxel后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:82:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   82 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Voxel后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |                           [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:94:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   94 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "SOR后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:94:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:94:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "SOR后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:94:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   94 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "SOR后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:94:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   94 |         RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "SOR后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+      |                           [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:98:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   98 |             RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "过滤后点云为空！跳过本帧。");
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:98:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:98:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   98 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "过滤后点云为空！跳过本帧。");
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+                 from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:98:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   98 |             RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "过滤后点云为空！跳过本帧。");
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:98:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LidarOdometry[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+   98 |             RCLCPP_WARN(this->[01;31m[Kget_logger[m[K(), "过滤后点云为空！跳过本帧。");
+      |                               [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,23 @@
+[0.049s] Invoking command in '/home/jerry/limx_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_msgs -- -j8 -l8
+[0.202s] [  1%] Built target lslidar_msgs__cpp
+[0.224s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[0.263s] [ 12%] Built target ament_cmake_python_copy_lslidar_msgs
+[0.282s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[0.286s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[0.287s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.287s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.293s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[0.303s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_c
+[0.348s] [ 79%] Built target lslidar_msgs
+[0.387s] [ 80%] Built target lslidar_msgs__py
+[0.433s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[0.478s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[0.480s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[0.481s] [100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.532s] running egg_info
+[0.534s] writing lslidar_msgs.egg-info/PKG-INFO
+[0.534s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[0.534s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[0.537s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[0.538s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[0.567s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg

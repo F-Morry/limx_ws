@@ -1,0 +1,17 @@
+[0.033s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target scan_corrector_node[0m
+[0.140s] [ 60%] Built target lidar_odometry_node
+[0.153s] [ 80%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[2.266s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:[m[K In member function ‘[01m[Kvoid ScanPitchCorrector::sync_callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[2.266s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_filtered[m[K’ was not declared in this scope; did you mean ‘[01m[Kpitch_filter[m[K’?
+[2.266s]    74 |     [01;31m[Kpitch_filtered[m[K = alpha * pitch_filtered_prev + (1 - alpha) * pitch_filtered;
+[2.266s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.266s]       |     [32m[Kpitch_filter[m[K
+[2.274s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_filtered[m[K’ was not declared in this scope; did you mean ‘[01m[Kroll_filter[m[K’?
+[2.274s]    76 |     [01;31m[Kroll_filtered[m[K = alpha * roll_filtered_prev + (1 - alpha) * roll_filtered;
+[2.275s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[2.275s]       |     [32m[Kroll_filter[m[K
+[5.319s] gmake[2]: *** [CMakeFiles/scan_corrector_node.dir/build.make:76: CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o] Error 1
+[5.320s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_corrector_node.dir/all] Error 2
+[5.320s] gmake: *** [Makefile:146: all] Error 2
+[5.323s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

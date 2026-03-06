@@ -1,0 +1,8 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

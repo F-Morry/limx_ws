@@ -1,0 +1,7 @@
+[0.034s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.247s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[0.247s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[2.862s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Interrupt
+[2.862s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Interrupt
+[2.862s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Interrupt
+[2.862s] gmake: *** [Makefile:146: all] Interrupt

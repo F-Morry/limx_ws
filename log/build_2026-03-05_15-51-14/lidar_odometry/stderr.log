@@ -1,0 +1,4 @@
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:[m[K In member function ‘[01m[Kvoid ScanPitchCorrector::sync_callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:112:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kp_corrected[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  112 |       tf2::Vector3 [01;35m[Kp_corrected[m[K = R * p;
+      |                    [01;35m[K^~~~~~~~~~~[m[K

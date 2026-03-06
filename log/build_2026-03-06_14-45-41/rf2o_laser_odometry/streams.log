@@ -1,0 +1,5 @@
+[0.059s] Invoking command in '/home/jerry/limx_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/rf2o_laser_odometry -- -j8 -l8
+[0.090s] [0mCMake Error: The source directory "/home/jerry/limx_ws/rf2o_laser_odometry" does not exist.
+[0.090s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.090s] gmake: *** [Makefile:311: cmake_check_build_system] Error 1
+[0.096s] Invoked command in '/home/jerry/limx_ws/build/rf2o_laser_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/rf2o_laser_odometry -- -j8 -l8

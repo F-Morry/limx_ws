@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/jerry/limx_ws/build/lslidar_msgs': /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_msgs -- -j8 -l8
+[0.205s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_c[0m
+[0.207s] [  1%] Built target lslidar_msgs__cpp
+[0.223s] [  1%] Built target ament_cmake_python_copy_lslidar_msgs
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_cpp[0m
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.238s] [ 12%] Built target lslidar_msgs__rosidl_generator_c
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c[0m
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c[0m
+[0.284s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[0.285s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[0.287s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.295s] [ 61%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[0.295s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.303s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_c
+[0.333s] [ 79%] Built target lslidar_msgs
+[0.384s] [ 80%] Built target lslidar_msgs__py
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_py[0m
+[0.431s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[0.452s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.458s] running egg_info
+[0.458s] writing lslidar_msgs.egg-info/PKG-INFO
+[0.459s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[0.459s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[0.462s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.464s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[0.468s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[0.468s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c__pyext[0m
+[0.477s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.483s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[0.487s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[0.498s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg

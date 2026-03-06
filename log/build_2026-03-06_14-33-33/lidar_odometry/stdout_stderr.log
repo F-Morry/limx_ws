@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[ 40%] Built target scan_corrector_node
+[ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:35:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto last_deskewed[m[K’ has no initializer
+   35 |     [01;31m[Kauto[m[K last_deskewed;
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

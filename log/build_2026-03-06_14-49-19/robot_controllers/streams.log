@@ -1,0 +1,194 @@
+[0.062s] Invoking command in '/home/jerry/limx_ws/build/robot_controllers': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_controllers
+[0.450s] -- The C compiler identification is GNU 11.4.0
+[0.592s] -- The CXX compiler identification is GNU 11.4.0
+[0.618s] -- Detecting C compiler ABI info
+[0.934s] -- Detecting C compiler ABI info - done
+[0.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.952s] -- Detecting C compile features
+[0.952s] -- Detecting C compile features - done
+[0.962s] -- Detecting CXX compiler ABI info
+[1.323s] -- Detecting CXX compiler ABI info - done
+[1.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.334s] -- Detecting CXX compile features
+[1.334s] -- Detecting CXX compile features - done
+[1.343s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.667s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.765s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.770s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.835s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.843s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.852s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.875s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.117s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.123s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.170s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.304s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.316s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.319s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.328s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.351s] -- Looking for pthread.h
+[2.441s] -- Looking for pthread.h - found
+[2.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.630s] -- Found Threads: TRUE  
+[2.696s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[2.715s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.722s] -- Found limxsdk_lowlevel: 0.0.0 (/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake)
+[2.813s] -- Configuring done
+[2.847s] -- Generating done
+[2.852s] -- Build files have been written to: /home/jerry/limx_ws/build/robot_controllers
+[2.871s] Invoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_controllers
+[2.873s] Invoking command in '/home/jerry/limx_ws/build/robot_controllers': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_controllers -- -j8 -l8
+[3.059s] [ 20%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/ControllerBase.cpp.o[0m
+[3.067s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/WheelfootController.cpp.o[0m
+[3.071s] [ 60%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/PointfootController.cpp.o[0m
+[3.085s] [ 80%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/SolefootController.cpp.o[0m
+[15.095s] [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn robot_controllers::ControllerBase::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[15.167s] [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:113:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string hardware_interface::LoanedCommandInterface::get_full_name() const[m[K’ is deprecated: Replaced by get_name method, which is semantically more correct [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.168s]   113 |     command_interfaces_map_[[01;35m[Kinterface.get_full_name()[m[K] = &interface;
+[15.168s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[15.168s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/include/robot_controllers/ControllerBase.h:28[m[K,
+[15.168s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:5[m[K:
+[15.169s] [01m[K/opt/ros/humble/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:59:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.169s]    59 |   [01;36m[Kget_full_name[m[K() const
+[15.169s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[15.178s] [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:116:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst string hardware_interface::LoanedStateInterface::get_full_name() const[m[K’ is deprecated: Replaced by get_name method, which is semantically more correct [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.178s]   116 |     state_interfaces_map_[[01;35m[Kinterface.get_full_name()[m[K] = &interface;
+[15.178s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[15.180s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/include/robot_controllers/ControllerBase.h:29[m[K,
+[15.180s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_controllers/src/ControllerBase.cpp:5[m[K:
+[15.180s] [01m[K/opt/ros/humble/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:59:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.180s]    59 |   [01;36m[Kget_full_name[m[K() const
+[15.180s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[72.820s] [100%] [32m[1mLinking CXX shared library librobot_controllers.so[0m
+[74.530s] [100%] Built target robot_controllers
+[74.768s] Invoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_controllers -- -j8 -l8
+[74.801s] Invoking command in '/home/jerry/limx_ws/build/robot_controllers': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_controllers
+[74.853s] -- Install configuration: ""
+[74.854s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/robot_controllers_plugin.xml
+[74.859s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/lib/librobot_controllers.so
+[74.902s] -- Set runtime path of "/home/jerry/limx_ws/install/robot_controllers/lib/librobot_controllers.so" to ""
+[74.902s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/include
+[74.902s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers
+[74.903s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/WheelfootController.h
+[74.906s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/PointfootController.h
+[74.907s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/ControllerBase.h
+[74.908s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/include/robot_controllers/SolefootController.h
+[74.910s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config
+[74.910s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot
+[74.912s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B
+[74.913s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/params.yaml
+[74.914s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy
+[74.915s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaaclab
+[74.916s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaaclab/encoder.onnx
+[74.922s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaaclab/policy.onnx
+[74.930s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaacgym
+[74.932s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaacgym/encoder.onnx
+[74.941s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441B/policy/isaacgym/policy.onnx
+[74.945s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B
+[74.947s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/params.yaml
+[74.947s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy
+[74.948s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaaclab
+[74.948s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaaclab/encoder.onnx
+[74.951s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaaclab/policy.onnx
+[74.955s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaacgym
+[74.955s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaacgym/encoder.onnx
+[74.958s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1B/policy/isaacgym/policy.onnx
+[74.963s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A
+[74.963s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/params.yaml
+[74.964s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy
+[74.964s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaaclab
+[74.965s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaaclab/encoder.onnx
+[74.968s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaaclab/policy.onnx
+[74.973s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaacgym
+[74.973s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaacgym/encoder.onnx
+[74.976s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441A/policy/isaacgym/policy.onnx
+[74.980s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B
+[74.981s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/params.yaml
+[74.981s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy
+[74.981s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaaclab
+[74.982s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaaclab/encoder.onnx
+[74.986s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaaclab/policy.onnx
+[74.989s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaacgym
+[74.989s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaacgym/encoder.onnx
+[74.992s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1B/policy/isaacgym/policy.onnx
+[74.996s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B
+[74.997s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/params.yaml
+[74.998s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy
+[74.999s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaaclab
+[75.000s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaaclab/encoder.onnx
+[75.003s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaaclab/policy.onnx
+[75.008s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaacgym
+[75.008s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaacgym/encoder.onnx
+[75.009s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1B/policy/isaacgym/policy.onnx
+[75.014s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2
+[75.015s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/params.yaml
+[75.015s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy
+[75.016s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaaclab
+[75.016s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaaclab/encoder.onnx
+[75.019s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaaclab/policy.onnx
+[75.024s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaacgym
+[75.024s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaacgym/encoder.onnx
+[75.027s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C2/policy/isaacgym/policy.onnx
+[75.032s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A
+[75.032s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/params.yaml
+[75.033s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy
+[75.033s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaaclab
+[75.034s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaaclab/encoder.onnx
+[75.037s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaaclab/policy.onnx
+[75.040s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaacgym
+[75.042s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaacgym/encoder.onnx
+[75.044s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/WF_TRON1A/policy/isaacgym/policy.onnx
+[75.048s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A
+[75.049s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/params.yaml
+[75.050s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy
+[75.050s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaaclab
+[75.051s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaaclab/encoder.onnx
+[75.054s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaaclab/policy.onnx
+[75.058s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaacgym
+[75.060s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaacgym/encoder.onnx
+[75.063s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/SF_TRON1A/policy/isaacgym/policy.onnx
+[75.066s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A
+[75.067s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/params.yaml
+[75.068s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy
+[75.068s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaaclab
+[75.069s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaaclab/encoder.onnx
+[75.073s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaaclab/policy.onnx
+[75.076s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaacgym
+[75.076s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaacgym/encoder.onnx
+[75.079s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_TRON1A/policy/isaacgym/policy.onnx
+[75.083s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C
+[75.085s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/params.yaml
+[75.085s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy
+[75.085s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaaclab
+[75.085s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaaclab/encoder.onnx
+[75.089s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaaclab/policy.onnx
+[75.094s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaacgym
+[75.094s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaacgym/encoder.onnx
+[75.097s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/pointfoot/PF_P441C/policy/isaacgym/policy.onnx
+[75.102s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers//config/robot_controllers.yaml
+[75.102s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/library_path.sh
+[75.103s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/library_path.dsv
+[75.107s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/package_run_dependencies/robot_controllers
+[75.108s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/parent_prefix_path/robot_controllers
+[75.109s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.sh
+[75.110s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/ament_prefix_path.dsv
+[75.110s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/path.sh
+[75.111s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/environment/path.dsv
+[75.113s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.bash
+[75.113s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.sh
+[75.114s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.zsh
+[75.115s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/local_setup.dsv
+[75.116s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.dsv
+[75.119s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/packages/robot_controllers
+[75.119s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robot_controllers
+[75.120s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.122s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[75.123s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.124s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake
+[75.126s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig-version.cmake
+[75.129s] -- Installing: /home/jerry/limx_ws/install/robot_controllers/share/robot_controllers/package.xml
+[75.136s] Invoked command in '/home/jerry/limx_ws/build/robot_controllers' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_controllers

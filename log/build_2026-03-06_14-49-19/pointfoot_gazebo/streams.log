@@ -1,0 +1,176 @@
+[0.028s] Invoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/pointfoot_gazebo
+[1.235s] -- The C compiler identification is GNU 11.4.0
+[1.235s] -- The CXX compiler identification is GNU 11.4.0
+[1.235s] -- Detecting C compiler ABI info
+[1.236s] -- Detecting C compiler ABI info - done
+[1.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.237s] -- Detecting C compile features
+[1.237s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.241s] -- Detecting CXX compiler ABI info - done
+[1.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.243s] -- Detecting CXX compile features
+[1.243s] -- Detecting CXX compile features - done
+[1.243s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.541s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.859s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.876s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.906s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.911s] -- Checking for module 'bullet>=2.82'
+[1.956s] --   Found bullet, version 3.05
+[2.303s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.476s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.525s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.081s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.174s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.196s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.223s] -- Searching for dependencies of ignition-math6
+[3.235s] -- Looking for OGRE...
+[3.235s] -- OGRE_PREFIX_WATCH changed.
+[3.256s] -- Checking for module 'OGRE'
+[3.295s] --   Found OGRE, version 1.9.0
+[3.463s] -- Found Ogre Ghadamon (1.9.0)
+[3.498s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.524s] -- Looking for OGRE_Paging...
+[3.538s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.538s] -- Looking for OGRE_Terrain...
+[3.551s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.553s] -- Looking for OGRE_Property...
+[3.563s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.563s] -- Looking for OGRE_RTShaderSystem...
+[3.574s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.574s] -- Looking for OGRE_Volume...
+[3.581s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.582s] -- Looking for OGRE_Overlay...
+[3.592s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.836s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.844s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.846s] -- Searching for dependencies of ignition-transport8
+[3.875s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.914s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.917s] -- Checking for module 'libzmq >= 4'
+[3.987s] --   Found libzmq , version 4.3.4
+[4.107s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.128s] -- Checking for module 'uuid'
+[4.169s] --   Found uuid, version 2.37.2
+[4.321s] -- Found UUID: TRUE  
+[4.334s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.334s] -- Searching for dependencies of ignition-msgs5
+[4.401s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.419s] -- Checking for module 'tinyxml2'
+[4.505s] --   Found tinyxml2, version 9.0.0
+[4.692s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.701s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.702s] -- Searching for dependencies of ignition-common3
+[4.703s] -- Looking for dlfcn.h - found
+[4.704s] -- Looking for libdl - found
+[4.710s] -- Found DL: TRUE  
+[4.750s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.751s] -- Searching for <ignition-common3> component [graphics]
+[4.757s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.758s] -- Searching for dependencies of ignition-common3-graphics
+[4.763s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.768s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.769s] -- Searching for dependencies of ignition-fuel_tools4
+[5.041s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.063s] -- Checking for module 'jsoncpp'
+[5.103s] --   Found jsoncpp, version 1.9.5
+[5.210s] -- Found JSONCPP: TRUE  
+[5.229s] -- Checking for module 'libzip'
+[5.269s] --   Found libzip, version 1.7.3
+[5.377s] -- Found ZIP: TRUE  
+[5.377s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.378s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.378s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.392s] -- Gazebo version: 11.10
+[5.392s] -- Checking for module 'tbb'
+[5.435s] --   Found tbb, version 2021.5.0
+[5.537s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.581s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.587s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.598s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.610s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.933s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.934s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.958s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.121s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.126s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.152s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.155s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.176s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[6.206s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.230s] -- Found Threads: TRUE  
+[6.357s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[6.387s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[6.481s] -- Found limxsdk_sim: 0.0.0 (/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake)
+[6.513s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.779s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.785s] -- Configured cppcheck include dirs: /home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/include
+[6.785s] -- Configured cppcheck exclude dirs and/or files: 
+[6.789s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.789s] -- Configured cpplint exclude dirs and/or files: 
+[6.789s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.791s] -- Added test 'lint_cmake' to check CMake code style
+[6.792s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.796s] -- Added test 'uncrustify' to check C / C++ code style
+[6.796s] -- Configured uncrustify additional arguments: 
+[6.796s] -- Added test 'xmllint' to check XML markup files
+[6.805s] -- Configuring done
+[7.028s] -- Generating done
+[7.062s] -- Build files have been written to: /home/jerry/limx_ws/build/pointfoot_gazebo
+[7.129s] Invoked command in '/home/jerry/limx_ws/build/pointfoot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/pointfoot_gazebo
+[7.130s] Invoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/pointfoot_gazebo -- -j8 -l8
+[9.491s] [ 50%] [32mBuilding CXX object CMakeFiles/poinfoot_gazebo_hardware_plugin.dir/src/PointFootHWSim.cpp.o[0m
+[77.252s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/include/pointfoot_gazebo/PointFootHWSim.h:18[m[K,
+[77.253s]                  from [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:22[m[K:
+[77.255s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[77.255s]    22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[77.255s]       |                                                             [01;36m[K^[m[K
+[77.255s] 
+[77.345s] [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type pointfoot_gazebo::PointFootHWSim::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[77.346s] [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:640:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[77.346s]   640 |     if ([01;35m[Kthis->dataPtr_->joint_names_.size() == motor_number[m[K)
+[77.346s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[77.348s] [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type pointfoot_gazebo::PointFootHWSim::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[77.349s] [01m[K/home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/src/PointFootHWSim.cpp:718:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[77.349s]   718 |     if ([01;35m[Kthis->dataPtr_->joint_names_.size() == motor_number[m[K)
+[77.349s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[80.869s] [100%] [32m[1mLinking CXX shared library libpoinfoot_gazebo_hardware_plugin.so[0m
+[81.745s] [100%] Built target poinfoot_gazebo_hardware_plugin
+[81.923s] Invoked command in '/home/jerry/limx_ws/build/pointfoot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/pointfoot_gazebo -- -j8 -l8
+[81.953s] Invoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/pointfoot_gazebo
+[81.960s] -- Install configuration: ""
+[81.961s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/lib/libpoinfoot_gazebo_hardware_plugin.so
+[81.964s] -- Set runtime path of "/home/jerry/limx_ws/install/pointfoot_gazebo/lib/libpoinfoot_gazebo_hardware_plugin.so" to ""
+[81.964s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/launch
+[81.965s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/launch/empty_world.launch.py
+[81.965s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/config
+[81.966s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/config/pointfoot_gazebo.yaml
+[81.967s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds
+[81.967s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds/empty_world.world
+[81.968s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds/new_world.world
+[81.969s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/library_path.sh
+[81.970s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/library_path.dsv
+[81.971s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/poinfoot_gazebo_hardware_plugin.xml
+[81.974s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/package_run_dependencies/pointfoot_gazebo
+[81.975s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/parent_prefix_path/pointfoot_gazebo
+[81.976s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/ament_prefix_path.sh
+[81.976s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/ament_prefix_path.dsv
+[81.977s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/path.sh
+[81.977s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/path.dsv
+[81.981s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.bash
+[81.982s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.sh
+[81.986s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.zsh
+[81.987s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.dsv
+[81.987s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.dsv
+[81.989s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/packages/pointfoot_gazebo
+[81.989s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/pointfoot_gazebo
+[81.992s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[81.992s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[81.993s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_libraries-extras.cmake
+[81.995s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/pointfoot_gazeboConfig.cmake
+[81.995s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/pointfoot_gazeboConfig-version.cmake
+[81.996s] -- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.xml
+[82.001s] Invoked command in '/home/jerry/limx_ws/build/pointfoot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/pointfoot_gazebo

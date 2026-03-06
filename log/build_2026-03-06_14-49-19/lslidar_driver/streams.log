@@ -1,0 +1,144 @@
+[31.845s] Invoking command in '/home/jerry/limx_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jerry/limx_ws/src/lidar/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/lslidar_driver
+[32.923s] -- The C compiler identification is GNU 11.4.0
+[33.078s] -- The CXX compiler identification is GNU 11.4.0
+[33.121s] -- Detecting C compiler ABI info
+[33.293s] -- Detecting C compiler ABI info - done
+[33.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[33.305s] -- Detecting C compile features
+[33.305s] -- Detecting C compile features - done
+[33.316s] -- Detecting CXX compiler ABI info
+[33.486s] -- Detecting CXX compiler ABI info - done
+[33.491s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[33.492s] -- Detecting CXX compile features
+[33.492s] -- Detecting CXX compile features - done
+[34.547s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[34.632s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[46.716s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[47.788s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[47.797s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[47.816s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[47.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[47.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[47.992s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[47.998s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[48.221s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[48.252s] -- Found FastRTPS: /opt/ros/humble/include  
+[48.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[48.311s] -- Found Threads: TRUE  
+[48.417s] -- Checking for module 'eigen3'
+[48.461s] --   Found eigen3, version 3.4.0
+[48.565s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[48.565s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[48.597s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[48.615s] -- Checking for module 'flann'
+[48.642s] --   Found flann, version 1.9.1
+[48.768s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[48.768s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[48.895s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[48.921s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[49.446s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[49.446s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[49.450s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[49.461s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[49.476s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[49.552s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[49.833s] -- Found X11: /usr/include   
+[49.834s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[49.966s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[49.967s] -- Looking for gethostbyname
+[50.104s] -- Looking for gethostbyname - found
+[50.105s] -- Looking for connect
+[50.224s] -- Looking for connect - found
+[50.225s] -- Looking for remove
+[50.323s] -- Looking for remove - found
+[50.325s] -- Looking for shmat
+[50.471s] -- Looking for shmat - found
+[50.471s] -- Looking for IceConnectionNumber in ICE
+[50.609s] -- Looking for IceConnectionNumber in ICE - found
+[50.739s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[50.741s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[50.745s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[50.749s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[50.875s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[50.881s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[50.885s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[50.892s] -- Found utf8cpp: /usr/include/utf8cpp  
+[51.021s] -- Checking for module 'libusb-1.0'
+[51.044s] --   Found libusb-1.0, version 1.0.25
+[51.126s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[51.127s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[51.128s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[51.226s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[51.226s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[51.228s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[51.380s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[51.390s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[51.399s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[51.541s] -- Found Qhull version 8.0.2
+[51.688s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[51.834s] -- looking for PCL_COMMON
+[51.834s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[51.836s] -- looking for PCL_KDTREE
+[51.836s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[51.836s] -- looking for PCL_OCTREE
+[51.837s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[51.838s] -- looking for PCL_SEARCH
+[51.839s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[51.841s] -- looking for PCL_SAMPLE_CONSENSUS
+[51.841s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[51.841s] -- looking for PCL_FILTERS
+[51.841s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[51.841s] -- looking for PCL_2D
+[51.842s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[51.842s] -- looking for PCL_GEOMETRY
+[51.843s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[51.843s] -- looking for PCL_IO
+[51.844s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[51.844s] -- looking for PCL_FEATURES
+[51.845s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[51.845s] -- looking for PCL_ML
+[51.846s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[51.847s] -- looking for PCL_SEGMENTATION
+[51.847s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[51.848s] -- looking for PCL_VISUALIZATION
+[51.849s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[51.849s] -- looking for PCL_SURFACE
+[51.850s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[51.850s] -- looking for PCL_REGISTRATION
+[51.851s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[51.853s] -- looking for PCL_KEYPOINTS
+[51.853s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[51.853s] -- looking for PCL_TRACKING
+[51.853s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[51.853s] -- looking for PCL_RECOGNITION
+[51.854s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[51.854s] -- looking for PCL_STEREO
+[51.855s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[51.855s] -- looking for PCL_APPS
+[51.856s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[51.857s] -- looking for PCL_IN_HAND_SCANNER
+[51.857s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[51.857s] -- looking for PCL_MODELER
+[51.858s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[51.858s] -- looking for PCL_POINT_CLOUD_EDITOR
+[51.859s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[51.859s] -- looking for PCL_OUTOFCORE
+[51.860s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[51.860s] -- looking for PCL_PEOPLE
+[51.860s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[51.861s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[51.866s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[51.904s] -- Found lslidar_msgs: 1.2.0 (/home/jerry/limx_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[51.931s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[51.970s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[52.160s] -- Configuring done
+[52.317s] -- Generating done
+[52.330s] -- Build files have been written to: /home/jerry/limx_ws/build/lslidar_driver
+[52.361s] Invoked command in '/home/jerry/limx_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jerry/limx_ws/src/lidar/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/lslidar_driver
+[52.366s] Invoking command in '/home/jerry/limx_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_driver -- -j8 -l8
+[52.443s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[60.376s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[60.707s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[63.185s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[77.406s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[78.602s] [100%] Built target lslidar_driver_node

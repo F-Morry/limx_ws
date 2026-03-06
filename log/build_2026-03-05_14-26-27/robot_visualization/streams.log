@@ -1,0 +1,12 @@
+[0.048s] Invoking command in '/home/jerry/limx_ws/build/robot_visualization': /usr/bin/cmake /home/jerry/limx_ws/src/robot-visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_visualization
+[0.093s] -- Configuring incomplete, errors occurred!
+[0.093s] See also "/home/jerry/limx_ws/build/robot_visualization/CMakeFiles/CMakeOutput.log".
+[0.093s] [31mCMake Error at CMakeLists.txt:5 (if):
+[0.093s]   if given arguments:
+[0.093s] 
+[0.093s]     "EQUAL" "1"
+[0.093s] 
+[0.093s]   Unknown arguments specified
+[0.094s] 
+[0.094s] [0m
+[0.095s] Invoked command in '/home/jerry/limx_ws/build/robot_visualization' returned '1': /usr/bin/cmake /home/jerry/limx_ws/src/robot-visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_visualization

@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/scan_corrector_node.dir/build.make:76: CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_corrector_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

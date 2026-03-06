@@ -1,0 +1,12 @@
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:[m[K In member function ‘[01m[Kvoid ScanPitchCorrector::sync_callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_filtered[m[K’ was not declared in this scope; did you mean ‘[01m[Kpitch_filter[m[K’?
+   74 |     [01;31m[Kpitch_filtered[m[K = alpha * pitch_filtered_prev + (1 - alpha) * pitch_filtered;
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Kpitch_filter[m[K
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_filtered[m[K’ was not declared in this scope; did you mean ‘[01m[Kroll_filter[m[K’?
+   76 |     [01;31m[Kroll_filtered[m[K = alpha * roll_filtered_prev + (1 - alpha) * roll_filtered;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Kroll_filter[m[K
+gmake[2]: *** [CMakeFiles/scan_corrector_node.dir/build.make:76: CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_corrector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

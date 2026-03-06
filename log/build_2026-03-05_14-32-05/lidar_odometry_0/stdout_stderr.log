@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node_0[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable lidar_odometry_node_0[0m
+[100%] Built target lidar_odometry_node_0
+-- Install configuration: ""
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/lib/lidar_odometry_0/lidar_odometry_node_0
+-- Set runtime path of "/home/jerry/limx_ws/install/lidar_odometry_0/lib/lidar_odometry_0/lidar_odometry_node_0" to ""
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/package_run_dependencies/lidar_odometry_0
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/parent_prefix_path/lidar_odometry_0
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/ament_prefix_path.sh
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/ament_prefix_path.dsv
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/path.sh
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/environment/path.dsv
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.bash
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.sh
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.zsh
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/local_setup.dsv
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/package.dsv
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/ament_index/resource_index/packages/lidar_odometry_0
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/cmake/lidar_odometry_0Config.cmake
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/cmake/lidar_odometry_0Config-version.cmake
+-- Installing: /home/jerry/limx_ws/install/lidar_odometry_0/share/lidar_odometry_0/package.xml

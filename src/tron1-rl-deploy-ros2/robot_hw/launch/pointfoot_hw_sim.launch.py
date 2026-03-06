@@ -67,29 +67,31 @@ def generate_launch_description():
             output='screen',
         ),
         Node(
-            package='lidar_odometry',
-            executable='scan_corrector_node',
+            package='rf2o_laser_odometry',
+            executable='rf2o_laser_odometry_node',
+            name='rf2o_laser_odometry',
             output='screen',
-            parameters=[{"use_sim_time": True}],
-        ),
-        Node(
-            package='lidar_odometry',
-            executable='lidar_odometry_node',
-            output='screen',
-            parameters=[{"use_sim_time": True}],
+            parameters=[{
+                'laser_scan_topic' : '/scan',
+                'odom_topic' : '/odom_rf2o',
+                'publish_tf' : True,
+                'base_frame_id' : 'base_link',
+                'odom_frame_id' : 'odom',
+                'init_pose_from_topic' : '',
+                'freq' : 20.0}],
         ),
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([
-                PathJoinSubstitution([
-                    FindPackageShare('slam_toolbox'),
-                    'launch',
-                    'online_async_launch.py'
-                ])
-            ]),
-            launch_arguments={
-                'slam_params_file': slam_params,
-                'use_sim_time': 'true'
-            }.items()
-        ),
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource([
+        #         PathJoinSubstitution([
+        #             FindPackageShare('slam_toolbox'),
+        #             'launch',
+        #             'online_async_launch.py'
+        #         ])
+        #     ]),
+        #     launch_arguments={
+        #         'slam_params_file': slam_params,
+        #         'use_sim_time': 'true'
+        #     }.items()
+        # ),
     ])

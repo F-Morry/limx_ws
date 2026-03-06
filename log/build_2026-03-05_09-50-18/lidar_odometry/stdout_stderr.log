@@ -1,0 +1,9 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[ 80%] Built target lidar_odometry_node
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kcontroller_msgs/msg/imu_data.hpp: No such file or directory
+    9 | #include [01;31m[K"controller_msgs/msg/imu_data.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/scan_corrector_node.dir/build.make:76: CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_corrector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,125 @@
+[0.028s] Invoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/pointfoot_gazebo
+[0.409s] -- The C compiler identification is GNU 11.4.0
+[0.409s] -- The CXX compiler identification is GNU 11.4.0
+[0.409s] -- Detecting C compiler ABI info
+[0.485s] -- Detecting C compiler ABI info - done
+[0.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.511s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.793s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.793s] -- Detecting CXX compile features
+[0.794s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.131s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.295s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.308s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.361s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.362s] -- Checking for module 'bullet>=2.82'
+[1.419s] --   Found bullet, version 3.05
+[1.768s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.991s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.039s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.500s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.657s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.691s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.736s] -- Searching for dependencies of ignition-math6
+[2.752s] -- Looking for OGRE...
+[2.752s] -- OGRE_PREFIX_WATCH changed.
+[2.775s] -- Checking for module 'OGRE'
+[2.826s] --   Found OGRE, version 1.9.0
+[2.932s] -- Found Ogre Ghadamon (1.9.0)
+[2.963s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.983s] -- Looking for OGRE_Paging...
+[2.996s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.996s] -- Looking for OGRE_Terrain...
+[3.008s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.008s] -- Looking for OGRE_Property...
+[3.011s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.011s] -- Looking for OGRE_RTShaderSystem...
+[3.020s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.020s] -- Looking for OGRE_Volume...
+[3.029s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.029s] -- Looking for OGRE_Overlay...
+[3.054s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.383s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.392s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.393s] -- Searching for dependencies of ignition-transport8
+[3.428s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.451s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.467s] -- Checking for module 'libzmq >= 4'
+[3.535s] --   Found libzmq , version 4.3.4
+[3.706s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.719s] -- Checking for module 'uuid'
+[3.746s] --   Found uuid, version 2.37.2
+[3.895s] -- Found UUID: TRUE  
+[3.908s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.908s] -- Searching for dependencies of ignition-msgs5
+[3.970s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.984s] -- Checking for module 'tinyxml2'
+[4.022s] --   Found tinyxml2, version 9.0.0
+[4.167s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.173s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.174s] -- Searching for dependencies of ignition-common3
+[4.180s] -- Looking for dlfcn.h - found
+[4.181s] -- Looking for libdl - found
+[4.183s] -- Found DL: TRUE  
+[4.230s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.237s] -- Searching for <ignition-common3> component [graphics]
+[4.246s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.246s] -- Searching for dependencies of ignition-common3-graphics
+[4.246s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.268s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.268s] -- Searching for dependencies of ignition-fuel_tools4
+[4.555s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.584s] -- Checking for module 'jsoncpp'
+[4.634s] --   Found jsoncpp, version 1.9.5
+[4.767s] -- Found JSONCPP: TRUE  
+[4.783s] -- Checking for module 'libzip'
+[4.853s] --   Found libzip, version 1.7.3
+[5.025s] -- Found ZIP: TRUE  
+[5.026s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.027s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.027s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.045s] -- Gazebo version: 11.10
+[5.046s] -- Checking for module 'tbb'
+[5.108s] --   Found tbb, version 2021.5.0
+[5.255s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.313s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.321s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.335s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.653s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.657s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.702s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.874s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.874s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.910s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.921s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.940s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.979s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.008s] -- Found Threads: TRUE  
+[6.139s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[6.208s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[6.333s] -- Found limxsdk_sim: 0.0.0 (/home/jerry/limx_ws/install/limxsdk_sim/share/limxsdk_sim/cmake)
+[6.358s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.574s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.580s] -- Configured cppcheck include dirs: /home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo/include
+[6.581s] -- Configured cppcheck exclude dirs and/or files: 
+[6.590s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.591s] -- Configured cpplint exclude dirs and/or files: 
+[6.591s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.592s] -- Added test 'lint_cmake' to check CMake code style
+[6.593s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.602s] -- Added test 'uncrustify' to check C / C++ code style
+[6.603s] -- Configured uncrustify additional arguments: 
+[6.604s] -- Added test 'xmllint' to check XML markup files
+[6.622s] -- Configuring done
+[6.952s] -- Generating done
+[6.971s] -- Build files have been written to: /home/jerry/limx_ws/build/pointfoot_gazebo
+[7.058s] Invoked command in '/home/jerry/limx_ws/build/pointfoot_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-gazebo-ros2/pointfoot_gazebo -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/pointfoot_gazebo
+[7.066s] Invoking command in '/home/jerry/limx_ws/build/pointfoot_gazebo': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/pointfoot_gazebo -- -j8 -l8
+[8.916s] [ 50%] [32mBuilding CXX object CMakeFiles/poinfoot_gazebo_hardware_plugin.dir/src/PointFootHWSim.cpp.o[0m

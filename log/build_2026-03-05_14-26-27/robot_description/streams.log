@@ -1,0 +1,12 @@
+[0.040s] Invoking command in '/home/jerry/limx_ws/build/robot_description': /usr/bin/cmake /home/jerry/limx_ws/src/robot-description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_description
+[0.083s] -- Configuring done
+[0.088s] -- Generating done
+[0.090s] [33mCMake Warning:
+[0.090s]   Manually-specified variables were not used by the project:
+[0.090s] 
+[0.090s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.090s] 
+[0.090s] [0m
+[0.091s] -- Build files have been written to: /home/jerry/limx_ws/build/robot_description
+[0.141s] Invoked command in '/home/jerry/limx_ws/build/robot_description' returned '0': /usr/bin/cmake /home/jerry/limx_ws/src/robot-description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_description
+[0.142s] Invoking command in '/home/jerry/limx_ws/build/robot_description': /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_description -- -j8 -l8

@@ -1,0 +1,4 @@
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:[m[K In member function ‘[01m[Kvoid ScanPitchCorrector::sync_callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:120:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kr_corrected[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  120 |       double [01;35m[Kr_corrected[m[K = r_xy / std::cos(theta);  // 投影到水平平面
+      |              [01;35m[K^~~~~~~~~~~[m[K

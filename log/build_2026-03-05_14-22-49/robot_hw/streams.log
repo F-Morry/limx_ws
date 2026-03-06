@@ -1,0 +1,99 @@
+[0.040s] Invoking command in '/home/jerry/limx_ws/build/robot_hw': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/scan_corrector:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_hw
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.470s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.484s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.488s] -- Detecting CXX compiler ABI info
+[0.709s] -- Detecting CXX compiler ABI info - done
+[0.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.743s] -- Detecting CXX compile features
+[0.743s] -- Detecting CXX compile features - done
+[0.745s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.983s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.142s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.216s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.224s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.236s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.328s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.335s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.599s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.671s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.767s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.781s] -- Looking for pthread.h
+[1.960s] -- Looking for pthread.h - found
+[1.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.199s] -- Found Threads: TRUE  
+[2.314s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[2.318s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.553s] -- Found controller_interface: 2.53.0 (/opt/ros/humble/share/controller_interface/cmake)
+[2.561s] -- Found controller_manager: 2.53.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.613s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.627s] -- Found limxsdk_lowlevel: 0.0.0 (/home/jerry/limx_ws/install/limxsdk_lowlevel/share/limxsdk_lowlevel/cmake)
+[2.725s] -- Configuring done
+[2.746s] -- Generating done
+[2.753s] -- Build files have been written to: /home/jerry/limx_ws/build/robot_hw
+[2.773s] Invoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/scan_corrector:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/robot_hw
+[2.774s] Invoking command in '/home/jerry/limx_ws/build/robot_hw': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/scan_corrector:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_hw -- -j8 -l8
+[2.858s] [ 40%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/PointfootHardwareNode.cpp.o[0m
+[2.858s] [ 40%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/HardwareBase.cpp.o[0m
+[2.862s] [ 60%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/PointfootHardware.cpp.o[0m
+[2.864s] [ 80%] [32mBuilding CXX object CMakeFiles/pointfoot_node.dir/src/HardwareLoop.cpp.o[0m
+[11.253s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+[11.254s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/PointfootHardware.cpp:5[m[K:
+[11.254s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[11.254s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[11.254s]       |                                                                                                    [01;36m[K^[m[K
+[14.463s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/HardwareBase.h:15[m[K,
+[14.463s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/HardwareBase.cpp:5[m[K:
+[14.463s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[14.463s]    22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[14.463s]       |                                                             [01;36m[K^[m[K
+[14.463s] 
+[16.311s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+[16.311s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/PointfootHardwareNode.cpp:9[m[K:
+[16.311s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[16.311s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[16.312s]       |                                                                                                    [01;36m[K^[m[K
+[18.192s] In file included from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/PointfootHardware.h:15[m[K,
+[18.192s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/include/robot_hw/HardwareLoop.h:17[m[K,
+[18.192s]                  from [01m[K/home/jerry/limx_ws/src/tron1-rl-deploy-ros2/robot_hw/src/HardwareLoop.cpp:5[m[K:
+[18.192s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[18.192s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[18.192s]       |                                                                                                    [01;36m[K^[m[K
+[28.320s] [100%] [32m[1mLinking CXX executable pointfoot_node[0m
+[29.315s] [100%] Built target pointfoot_node
+[29.497s] Invoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/scan_corrector:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jerry/limx_ws/build/robot_hw -- -j8 -l8
+[29.525s] Invoking command in '/home/jerry/limx_ws/build/robot_hw': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/scan_corrector:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_hw
+[29.564s] -- Install configuration: ""
+[29.567s] -- Installing: /home/jerry/limx_ws/install/robot_hw/lib/robot_hw/pointfoot_node
+[29.567s] -- Set runtime path of "/home/jerry/limx_ws/install/robot_hw/lib/robot_hw/pointfoot_node" to ""
+[29.600s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch
+[29.601s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw_slam.launch.py
+[29.603s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw.launch.py
+[29.607s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/launch/pointfoot_hw_sim.launch.py
+[29.617s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config
+[29.617s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/joystick.yaml
+[29.622s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/robot_hw.yaml
+[29.623s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/config/slam_params.yaml
+[29.626s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/package_run_dependencies/robot_hw
+[29.628s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/parent_prefix_path/robot_hw
+[29.630s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/ament_prefix_path.sh
+[29.631s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/ament_prefix_path.dsv
+[29.633s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/path.sh
+[29.633s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/environment/path.dsv
+[29.633s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.bash
+[29.634s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.sh
+[29.635s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.zsh
+[29.636s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/local_setup.dsv
+[29.637s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.dsv
+[29.641s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/ament_index/resource_index/packages/robot_hw
+[29.646s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/cmake/robot_hwConfig.cmake
+[29.646s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/cmake/robot_hwConfig-version.cmake
+[29.647s] -- Installing: /home/jerry/limx_ws/install/robot_hw/share/robot_hw/package.xml
+[29.667s] Invoked command in '/home/jerry/limx_ws/build/robot_hw' returned '0': CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel:/home/jerry/limx_ws/install/scan_corrector:/home/jerry/limx_ws/install/robot_visualization:/home/jerry/limx_ws/install/robot_hw:/home/jerry/limx_ws/install/robot_description:/home/jerry/limx_ws/install/robot_controllers:/home/jerry/limx_ws/install/pointfoot_gazebo:/home/jerry/limx_ws/install/mrosbridger:/home/jerry/limx_ws/install/lslidar_driver:/home/jerry/limx_ws/install/lslidar_msgs:/home/jerry/limx_ws/install/limxsdk_sim:/home/jerry/limx_ws/install/lidar_odometry_0:/home/jerry/limx_ws/install/lidar_odometry:/home/jerry/limx_ws/install/controller_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/limxsdk_lowlevel/lib:/home/jerry/limx_ws/install/robot_controllers/lib:/home/jerry/limx_ws/install/pointfoot_gazebo/lib:/home/jerry/limx_ws/install/mrosbridger/lib:/home/jerry/limx_ws/install/lslidar_msgs/lib:/home/jerry/limx_ws/install/limxsdk_sim/lib:/home/jerry/limx_ws/install/controller_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jerry/limx_ws/build/robot_hw

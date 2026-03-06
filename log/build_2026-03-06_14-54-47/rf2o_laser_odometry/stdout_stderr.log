@@ -1,0 +1,12 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[ 60%] Built target rf2o_laser_odometry
+[01m[K/home/jerry/limx_ws/src/rf2o_laser_odometry/src/CLaserOdometry2DNode.cpp:268:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  268 | }
+      |  [01;31m[K^[m[K
+In file included from [01m[K/home/jerry/limx_ws/src/rf2o_laser_odometry/src/CLaserOdometry2DNode.cpp:18[m[K:
+[01m[K/home/jerry/limx_ws/src/rf2o_laser_odometry/include/rf2o_laser_odometry/CLaserOdometry2DNode.hpp:12:16:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   12 | namespace rf2o [01;36m[K{[m[K
+      |                [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/rf2o_laser_odometry_node.dir/build.make:76: CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rf2o_laser_odometry_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,11 @@
+[0.027s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.205s] [ 20%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[0.226s] [ 80%] Built target lidar_odometry_node
+[0.745s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/scan_corrector_node.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kcontroller_msgs/msg/imu_data.hpp: No such file or directory
+[0.745s]     9 | #include [01;31m[K"controller_msgs/msg/imu_data.hpp"[m[K
+[0.745s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.745s] compilation terminated.
+[0.750s] gmake[2]: *** [CMakeFiles/scan_corrector_node.dir/build.make:76: CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o] Error 1
+[0.753s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/scan_corrector_node.dir/all] Error 2
+[0.753s] gmake: *** [Makefile:146: all] Error 2
+[0.754s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

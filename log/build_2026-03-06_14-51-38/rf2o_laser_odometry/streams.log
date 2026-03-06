@@ -1,0 +1,28 @@
+[0.037s] Invoking command in '/home/jerry/limx_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/rf2o_laser_odometry -- -j8 -l8
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node[0m
+[0.185s] [ 60%] Built target rf2o_laser_odometry_node
+[0.193s] [100%] Built target rf2o_laser_odometry
+[0.308s] Invoked command in '/home/jerry/limx_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/rf2o_laser_odometry -- -j8 -l8
+[0.313s] Invoking command in '/home/jerry/limx_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/rf2o_laser_odometry
+[0.325s] -- Install configuration: ""
+[0.325s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[0.348s] -- Set runtime path of "/home/jerry/limx_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[0.348s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[0.348s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[0.354s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[0.354s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[0.354s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[0.356s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[0.357s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[0.357s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[0.357s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[0.357s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[0.358s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[0.358s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[0.362s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[0.362s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[0.362s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[0.362s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[0.363s] -- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[0.391s] Invoked command in '/home/jerry/limx_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jerry/limx_ws/build/rf2o_laser_odometry

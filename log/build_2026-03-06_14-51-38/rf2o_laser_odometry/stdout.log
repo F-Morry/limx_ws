@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry[0m
+[35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node[0m
+[ 60%] Built target rf2o_laser_odometry_node
+[100%] Built target rf2o_laser_odometry
+-- Install configuration: ""
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+-- Set runtime path of "/home/jerry/limx_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+-- Installing: /home/jerry/limx_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml

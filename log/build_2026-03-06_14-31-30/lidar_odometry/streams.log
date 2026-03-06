@@ -1,0 +1,15 @@
+[0.030s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.193s] [ 40%] Built target scan_corrector_node
+[0.200s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[5.308s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[5.308s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:49:54:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_deskewed[m[K’ was not declared in this scope
+[5.308s]    49 |         pcl::PointCloud<pcl::PointXYZ>::Ptr source = [01;31m[Klast_deskewed[m[K;
+[5.308s]       |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[5.308s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:64:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksource_deskew[m[K’ was not declared in this scope
+[5.308s]    64 |         voxel.setInputCloud([01;31m[Ksource_deskew[m[K);
+[5.308s]       |                             [01;31m[K^~~~~~~~~~~~~[m[K
+[10.654s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+[10.654s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[10.654s] gmake: *** [Makefile:146: all] Error 2
+[10.657s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

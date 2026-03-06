@@ -1,0 +1,35 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/poinfoot_gazebo_hardware_plugin.dir/src/PointFootHWSim.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpoinfoot_gazebo_hardware_plugin.so[0m
+[100%] Built target poinfoot_gazebo_hardware_plugin
+-- Install configuration: ""
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/lib/libpoinfoot_gazebo_hardware_plugin.so
+-- Set runtime path of "/home/jerry/limx_ws/install/pointfoot_gazebo/lib/libpoinfoot_gazebo_hardware_plugin.so" to ""
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/launch
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/launch/empty_world.launch.py
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/config
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/config/pointfoot_gazebo.yaml
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds/empty_world.world
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/worlds/new_world.world
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/library_path.sh
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/library_path.dsv
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/poinfoot_gazebo_hardware_plugin.xml
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/package_run_dependencies/pointfoot_gazebo
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/parent_prefix_path/pointfoot_gazebo
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/path.sh
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/environment/path.dsv
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.bash
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.sh
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.zsh
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/local_setup.dsv
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.dsv
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/packages/pointfoot_gazebo
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/pointfoot_gazebo
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/pointfoot_gazeboConfig.cmake
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/cmake/pointfoot_gazeboConfig-version.cmake
+-- Installing: /home/jerry/limx_ws/install/pointfoot_gazebo/share/pointfoot_gazebo/package.xml

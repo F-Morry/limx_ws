@@ -1,0 +1,6 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,112 @@
+[0.029s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/lidar_odometry_0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/lidar_odometry_0
+[0.203s] -- The C compiler identification is GNU 11.4.0
+[0.349s] -- The CXX compiler identification is GNU 11.4.0
+[0.357s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.474s] -- Detecting CXX compiler ABI info
+[0.578s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.582s] -- Detecting CXX compile features
+[0.582s] -- Detecting CXX compile features - done
+[0.585s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.726s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.841s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.907s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.916s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.931s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.066s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.076s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.234s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.262s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.330s] -- Looking for pthread.h
+[1.534s] -- Looking for pthread.h - found
+[1.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.725s] -- Found Threads: TRUE  
+[1.811s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.835s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.878s] -- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+[1.912s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.999s] -- Checking for module 'eigen3'
+[2.038s] --   Found eigen3, version 3.4.0
+[2.127s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.127s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.179s] -- Checking for module 'flann'
+[2.202s] --   Found flann, version 1.9.1
+[2.293s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.293s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.872s] -- Checking for module 'libusb-1.0'
+[5.914s] --   Found libusb-1.0, version 1.0.25
+[6.042s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.050s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.272s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.646s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.658s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.678s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.037s] -- Found Qhull version 8.0.2
+[7.407s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.640s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[7.642s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[7.648s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[7.649s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[7.650s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[7.651s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[7.657s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[7.657s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[7.657s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[7.657s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[7.658s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[7.662s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[7.663s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[7.664s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[7.671s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[7.671s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[7.671s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[7.674s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[7.677s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[7.678s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[7.683s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[7.683s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[7.684s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[7.684s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[7.686s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[7.696s] -- Found tf2_eigen: 0.25.18 (/opt/ros/humble/share/tf2_eigen/cmake)
+[7.793s] [33mCMake Warning (dev) at CMakeLists.txt:20 (find_package):
+[7.793s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[7.793s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[7.793s]   command to set the policy and suppress this warning.
+[7.793s] 
+[7.793s]   CMake variable PCL_ROOT is set to:
+[7.793s] 
+[7.793s]     /usr
+[7.793s] 
+[7.793s]   For compatibility, CMake is ignoring the variable.
+[7.793s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.793s] [0m
+[7.815s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.928s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.929s] -- Configured cppcheck include dirs: /home/jerry/limx_ws/src/lidar_odometry_0/include;$<BUILD_INTERFACE:/home/jerry/limx_ws/src/lidar_odometry_0/include>
+[7.929s] -- Configured cppcheck exclude dirs and/or files: 
+[7.930s] -- Added test 'lint_cmake' to check CMake code style
+[7.934s] -- Added test 'uncrustify' to check C / C++ code style
+[7.934s] -- Configured uncrustify additional arguments: 
+[7.935s] -- Added test 'xmllint' to check XML markup files
+[7.939s] -- Configuring done
+[8.125s] -- Generating done
+[8.154s] -- Build files have been written to: /home/jerry/limx_ws/build/lidar_odometry_0
+[8.180s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/lidar_odometry_0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/lidar_odometry_0
+[8.190s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[8.321s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[8.323s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[73.645s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[73.650s] compilation terminated.
+[73.650s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:76: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o] Error 1
+[73.650s] gmake[2]: *** Waiting for unfinished jobs....
+[92.797s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[92.812s] gmake: *** [Makefile:146: all] Error 2

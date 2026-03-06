@@ -1,0 +1,10 @@
+[0.029s] Invoking command in '/home/jerry/limx_ws/build/limxsdk_lowlevel': /usr/bin/cmake /home/jerry/limx_ws/src/limxsdk-lowlevel -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/limxsdk_lowlevel
+[0.109s] -- Configuring done
+[0.124s] -- Generating done
+[0.126s] [33mCMake Warning:
+[0.126s]   Manually-specified variables were not used by the project:
+[0.126s] 
+[0.126s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.126s] 
+[0.126s] [0m
+[0.128s] -- Build files have been written to: /home/jerry/limx_ws/build/limxsdk_lowlevel

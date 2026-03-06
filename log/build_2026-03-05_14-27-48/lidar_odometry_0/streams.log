@@ -1,0 +1,10 @@
+[0.024s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry_0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8
+[0.090s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_node_0.cpp.o[0m
+[0.117s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o[0m
+[46.187s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[46.194s] compilation terminated.
+[46.194s] gmake[2]: *** [CMakeFiles/lidar_odometry_node_0.dir/build.make:90: CMakeFiles/lidar_odometry_node_0.dir/src/lidar_odometry_0.cpp.o] Error 1
+[46.200s] gmake[2]: *** Waiting for unfinished jobs....
+[60.127s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node_0.dir/all] Error 2
+[60.138s] gmake: *** [Makefile:146: all] Error 2
+[60.215s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry_0' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry_0 -- -j8 -l8

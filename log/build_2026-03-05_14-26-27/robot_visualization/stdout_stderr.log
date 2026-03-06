@@ -1,0 +1,10 @@
+-- Configuring incomplete, errors occurred!
+See also "/home/jerry/limx_ws/build/robot_visualization/CMakeFiles/CMakeOutput.log".
+[31mCMake Error at CMakeLists.txt:5 (if):
+  if given arguments:
+
+    "EQUAL" "1"
+
+  Unknown arguments specified
+
+[0m

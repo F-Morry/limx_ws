@@ -1,0 +1,141 @@
+[0.037s] Invoking command in '/home/jerry/limx_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target scan_corrector_node[0m
+[0.214s] [ 20%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[0.215s] [ 40%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o[0m
+[5.608s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.609s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.609s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.609s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.609s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.609s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometry::process_scan_data(ScanDataPtr)[m[K’:
+[5.609s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:81:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[5.609s]    81 |         RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Voxel后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+[5.610s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[5.610s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.610s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.610s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.610s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.610s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[5.610s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[5.610s]       |                 [01;36m[K^~~~~~[m[K
+[5.610s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.610s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.611s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.611s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.611s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.611s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.611s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.611s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:81:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.611s]    81 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Voxel后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+[5.611s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.613s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:93:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[5.613s]    93 |         RCLCPP_INFO([01;31m[Kget_logger[m[K(), "SOR后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+[5.613s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[5.613s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.613s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.613s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.613s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.613s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[5.613s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[5.613s]       |                 [01;36m[K^~~~~~[m[K
+[5.613s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.614s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.614s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.614s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.614s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.614s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:93:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.614s]    93 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), "SOR后: Source大小=%zu, Target大小=%zu", source_filtered->size(), target_filtered->size());
+[5.614s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.615s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:97:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[5.615s]    97 |             RCLCPP_WARN([01;31m[Kget_logger[m[K(), "过滤后点云为空！跳过本帧。");
+[5.615s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[5.615s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.615s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.615s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.615s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.615s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[5.615s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[5.615s]       |                 [01;36m[K^~~~~~[m[K
+[5.615s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.616s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[5.616s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/utils.hpp:11[m[K,
+[5.616s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/include/lidar_odometry/lidar_odometry.hpp:7[m[K,
+[5.616s]                  from [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:1[m[K:
+[5.616s] [01m[K/home/jerry/limx_ws/src/lidar_odometry/src/lidar_odometry.cpp:97:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.616s]    97 |             [01;31m[KRCLCPP_WARN[m[K(get_logger(), "过滤后点云为空！跳过本帧。");
+[5.616s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[11.027s] [ 60%] [32m[1mLinking CXX executable scan_corrector_node[0m
+[11.264s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:90: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry.cpp.o] Error 1
+[11.265s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[11.265s] gmake[1]: *** Waiting for unfinished jobs....
+[11.521s] [ 60%] Built target scan_corrector_node
+[11.523s] gmake: *** [Makefile:146: all] Error 2
+[11.525s] Invoked command in '/home/jerry/limx_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lidar_odometry -- -j8 -l8

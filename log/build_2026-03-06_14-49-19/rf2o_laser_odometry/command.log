@@ -1,0 +1,3 @@
+Invoking command in '/home/jerry/limx_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/rf2o_laser_odometry
+Invoked command in '/home/jerry/limx_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jerry/limx_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/jerry/limx_ws/install/rf2o_laser_odometry
+Invoking command in '/home/jerry/limx_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jerry/limx_ws/build/rf2o_laser_odometry -- -j8 -l8

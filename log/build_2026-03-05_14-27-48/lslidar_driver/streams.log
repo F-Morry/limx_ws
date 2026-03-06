@@ -1,0 +1,54 @@
+[0.057s] Invoking command in '/home/jerry/limx_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_driver -- -j8 -l8
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[0.230s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[0.236s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[0.256s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[56.102s] [ 80%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[57.833s] [100%] Built target lslidar_driver_node
+[58.099s] Invoked command in '/home/jerry/limx_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jerry/limx_ws/build/lslidar_driver -- -j8 -l8
+[58.250s] Invoking command in '/home/jerry/limx_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/lslidar_driver
+[58.305s] -- Install configuration: ""
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[58.306s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[58.307s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[58.307s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[58.307s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[58.308s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[58.315s] -- Set runtime path of "/home/jerry/limx_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[58.316s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[58.316s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[58.318s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[58.319s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[58.320s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[58.320s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[58.320s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[58.320s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[58.320s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[58.321s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[58.321s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[58.323s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[58.325s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[58.325s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.325s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[58.326s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[58.326s] -- Installing: /home/jerry/limx_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[58.337s] Invoked command in '/home/jerry/limx_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jerry/limx_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jerry/limx_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jerry/limx_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jerry/limx_ws/build/lslidar_driver

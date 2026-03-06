@@ -1,0 +1,2 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/scan_corrector_node.dir/src/scan_corrector_node.cpp.o[0m
+[ 80%] Built target lidar_odometry_node
