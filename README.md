@@ -124,16 +124,23 @@ RF2O（Range Flow-based Odometry）是一种针对平面（2D）激光扫描序�
 - 局限：RF2O 基于平面激光束的几何约束，面对大范围无纹理（几何信息匮乏）环境、重复结构或大范围动态障碍物时估计会退化；因此在无纹理区或稀疏点云下，建议与其他传感（轮式里程计、视觉/IMU）进行融合或做后端优化。
 - 建议：把 RF2O 输出作为里程计来源之一，并结合卡尔曼滤波或图优化做融合能得到更鲁棒的导航效果。
 
-### 测试数据与图像（占位）
-下面为 README 中将展示的测试结果占位。请将实际生成的图像与数据上传到仓库 `docs/odometry_results/`（例如 `docs/odometry_results/sim_vs_rf2o.png`、`docs/odometry_results/ate_plot.png`、`docs/odometry_results/results_summary.csv`），README 会引用这些文件并显示。示例占位：
+### 测试数据与图像  
+下面分别展示里程计算法在仿真和实机上的效果，采用Rosbag收集运动数据，并在Plotjuggler进行可视化  
+其中仿真中的对比里程计为odom里程计，实机中对比的里程计为机器人原生差速里程计
+- 仿真轨迹对比
+  
+<img width="1280" height="728" alt="sim_rf2ovsodom_xy" src="https://github.com/user-attachments/assets/bee00121-8f3f-4901-842a-8ab1a085e949" />
+  
+- 仿真轨迹x、y坐标对比
+<img width="1280" height="728" alt="sim_rf2ovsodom_xay" src="https://github.com/user-attachments/assets/fb6f86f4-23e1-43f7-bfc2-3b0f1073421f" />
 
-- 仿真轨迹对比（示例图）
+- 实机轨迹对比  
+<img width="1280" height="909" alt="real_rf2ovsdiff_xy" src="https://github.com/user-attachments/assets/4bbeba53-698c-4b3c-96be-b63e862b4c61" />
+  
+- 仿真轨迹x、y坐标对比
+<img width="1280" height="902" alt="real_rf2ovsdiff_xay" src="https://github.com/user-attachments/assets/af095ca4-0ba5-4ebb-889b-2bef86e40080" />
 
-![仿真轨迹对比](docs/odometry_results/sim_vs_rf2o.png)
-
-
-
-
+  
 ## 仓库结构（与关键子模块）
 - src/rf2o_laser_odometry/ — RF2O 算法实现（包含 C++ 源码、launch、README、LICENSE）
   - 关键文件：`src/CLaserOdometry2D.cpp`、`src/CLaserOdometry2DNode.cpp`（节点实现与发布逻辑）
