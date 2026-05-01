@@ -118,11 +118,11 @@ RF2O（Range Flow-based Odometry）是一种针对平面（2D）激光扫描序�
   - nav_msgs/Odometry — RF2O 估计的位姿与速度（topic: "/odom_rf2o"，可由参数修改）
   - TF（odom -> base_link） — 若 publish_tf = true，则发布对应转换
 
-## 在仿真与软件测试中的实现效果（摘要）
-基于仓库内实现与实验记录，软件测试结论如下（摘要化）：
-- 精度与稳定性：RF2O 在多数室内轨迹（直线、平滑转弯、复合路径）上能有效抑制由单纯差速里程计导致的累计漂移，尤其在单侧轮打滑或低摩擦路面场景中，激光里程计表现更稳定。
-- 局限：RF2O 基于平面激光束的几何约束，面对大范围无纹理（几何信息匮乏）环境、重复结构或大范围动态障碍物时估计会退化；因此在无纹理区或稀疏点云下，建议与其他传感（轮式里程计、视觉/IMU）进行融合或做后端优化。
-- 建议：把 RF2O 输出作为里程计来源之一，并结合卡尔曼滤波或图优化做融合能得到更鲁棒的导航效果。
+## 在仿真与实机测试中的实现效果分析
+通过与Simple2D_odometry算法对比我们发现，RF2O算法具有较强的鲁棒性很稳定性，在遇到机器人机身晃动，雷达扫描平面俯仰角发生较大变化时仍然能够较为精准的里程计输出， 
+同时该算法也解决了原生差速里程计的缺陷，不足之处在于该雷达里程计算法受限于雷达信息的发布频率导致输出的里程计轨迹不够平滑，后续工作中可以将原生里程计与雷达里程计进行结合  
+输出更为平滑和精准的里程计
+
 
 ### 测试数据与图像  
 下面分别展示里程计算法在仿真和实机上的效果，采用Rosbag收集运动数据，并在Plotjuggler进行可视化  
@@ -137,7 +137,7 @@ RF2O（Range Flow-based Odometry）是一种针对平面（2D）激光扫描序�
 - 实机轨迹对比  
 <img width="1280" height="909" alt="real_rf2ovsdiff_xy" src="https://github.com/user-attachments/assets/4bbeba53-698c-4b3c-96be-b63e862b4c61" />
   
-- 仿真轨迹x、y坐标对比
+- 实机轨迹x、y坐标对比
 <img width="1280" height="902" alt="real_rf2ovsdiff_xay" src="https://github.com/user-attachments/assets/af095ca4-0ba5-4ebb-889b-2bef86e40080" />
 
   
@@ -147,6 +147,8 @@ RF2O（Range Flow-based Odometry）是一种针对平面（2D）激光扫描序�
 - src/imu_sync_converter/ — IMU 时间戳转换与同步工具（用于在不同时间单位间转换与滤波）
   - 关键文件：`src/imu_converter_node.cpp`
 - src/limxsdk-lowlevel/ — LimX 运动控制 SDK（示例、接口与使用说明，包含 ROS1/Noetic 的安装说明）
-- src/lidar/ — 雷达驱动与消息定义（包括 lslidar 驱动）
+- src/lidar/ — 雷神n10p雷达驱动与消息定义（包括 lslidar 驱动）
+- src/robot-description/ — 机器人建模文件（mesh、urdf、xacro文件等）
 - src/robot-visualization/ — 可视化/调试工具（包含 ROS1/ROS2 支持的可视化工具）
+- src/tron1-rl-deploy-ros2/ — 仿真与实机机器人控制及仿真启动节点（可同时启动slam、里程计及导航节点）
 ---
