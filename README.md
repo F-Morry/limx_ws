@@ -1,6 +1,6 @@
 # 逐际动力 WF_TRON1A 机器人 — 激光里程计与导航开发
 
-[![license](https://img.shields.io/badge/license-SEE-LICENSE-lightgrey)]()
+ 本仓库整体以 GNU General Public License v3 (GPL-3.0) 授权；详情见 /LICENSE。仓库中包含 limxdynamics 的 Apache-2.0 代码（保留于 src/limxsdk-lowlevel/LICENSE）。
 
 ## 概览
 本仓库记录并包含在 WF_TRON1A 差速驱动机器人平台上，为解决差速里程计在异常工况（如单轮打滑/卡住）下引起的大位姿误差所做的开发工作。核心思路是：外接二维激光雷达（雷神 N10p 系列），使用基于激光扫描的 RF2O（Range Flow-based Odometry）算法估计里程计增量，替代或辅助原车载差速里程计，从而提高导航的鲁棒性与精度。
